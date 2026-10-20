@@ -1,0 +1,31 @@
+/* piel/piel.css — solo lo propio del módulo */
+.piel-datenav { display: grid; grid-template-columns: 48px 1fr 48px; align-items: center; gap: 8px; }
+.piel-datenav .m-btn { min-width: 44px; padding: 0; }
+.piel-datenav .m-btn:disabled { opacity: .3; cursor: default; }
+.piel-date { text-align: center; }
+.piel-block { display: flex; flex-direction: column; gap: 6px; }
+.piel-times .m-input { padding: 8px 4px; font-size: 16px; }
+.piel-times .m-field { font-size: 12px; }
+.piel-trat-row { display: flex; flex-direction: column; gap: 6px; padding: 6px 0; border-bottom: 1px solid var(--cyan-line-soft); }
+.piel-trat-row:last-child { border-bottom: none; }
+.piel-trat-name { font-weight: 700; color: var(--text-bright); font-size: 15px; }
+.piel-chips { flex-wrap: nowrap; }
+.piel-chips .m-chip { flex: 1; min-height: 40px; padding: 0 4px; font-family: var(--font-mono); font-size: 12px; letter-spacing: .04em; }
+.piel-q { align-self: center; white-space: nowrap; }
+.piel-nota { resize: none; line-height: 1.35; }
+.piel-fotos { flex-wrap: wrap; }
+.piel-fotos .m-btn { display: inline-flex; align-items: center; min-height: 40px; text-decoration: none; }
+.piel-legacy { border: 1px dashed var(--cyan-line); border-radius: 5px; padding: 8px 10px; }
+.piel-legacy summary { cursor: pointer; min-height: 32px; display: flex; align-items: center; font-weight: 700; color: var(--text-bright); }
+.piel-legacy-item { margin-top: 8px; font-size: 14px; line-height: 1.4; }
+.piel-leg { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; }
+.piel-tablewrap { overflow-x: auto; }
+.piel-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.piel-table th { font-family: var(--font-mono); font-size: 10px; letter-spacing: .08em; color: var(--text-dim); text-align: center; font-weight: 400; padding: 4px 2px; }
+.piel-table th:first-child, .piel-table td:first-child { text-align: left; }
+.piel-table td { text-align: center; padding: 0 2px; height: 40px; border-top: 1px solid var(--cyan-line-soft); font-family: var(--font-mono); }
+.piel-table td:first-child { font-family: var(--font-body); white-space: nowrap; }
+.piel-table td.piel-tl { font-size: 12px; text-align: left; min-width: 90px; }
+.piel-table tbody tr { cursor: pointer; }
+.piel-table tbody tr.sel { background: var(--cyan-glow-soft); }
+.hoy-piel .m-chip { min-height: 38px; }
