@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#000305">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Hábitos">
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<link rel="icon" type="image/png" href="assets/icon-192.png">
+<title>Trackeador de Hábitos · V8</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&family=Noto+Sans+Hebrew:wght@400;700&family=Playfair+Display:wght@400;700;900&family=DM+Serif+Display&family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&family=Permanent+Marker&family=Caveat:wght@400;600;700&family=Architects+Daughter&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="core/core.css">
+<link rel="stylesheet" href="core/modules.css">
+<link rel="stylesheet" href="modules/piel/piel.css">
+<link rel="stylesheet" href="modules/gym/gym.css">
+<link rel="stylesheet" href="modules/plata/plata.css">
+<link rel="stylesheet" href="modules/datos/datos.css">
+<link rel="stylesheet" href="game/game.css">
+</head>
+<body>
+
+<div class="bg-grid"></div>
+<canvas id="particles"></canvas>
+<div class="bg-corners"></div>
+
+<!-- ============ HEADER ============ -->
+<header class="top-bar">
+  <div class="brand">
+    <h1 class="brand-title" id="brandTitleEl">MIS HÁBITOS</h1>
+    <span class="brand-sub" id="brandSubEl"></span>
+  </div>
+  <div class="hebrew-mark" id="hebrewMarkEl"></div>
+  <div class="status-area">
+    <span class="status-date" id="dateDisplay">— — —</span>
+    <span class="status-clock" id="clockDisplay">00:00:00</span>
+    <span class="sync-indicator">SYNC</span>
+  </div>
+</header>
+
+<!-- ============ MAIN LAYOUT ============ -->
+<div class="main-grid">
+
+  <!-- ============ SIDEBAR IZQUIERDA ============ -->
+  <aside class="sidebar-left">
+    <nav class="hud-nav" id="nav">
+      <div class="nav-item active" data-view="resumen">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1" fill="currentColor"/></svg>
+        <span>RESUMEN</span>
+      </div>
+      <div class="nav-item" data-view="habitos">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+        <span>HÁBITOS</span>
+      </div>
+      <div class="nav-item" data-view="estadisticas">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 17 9 11 13 15 21 7"/><polyline points="14 7 21 7 21 14"/></svg>
+        <span>ESTADÍSTICAS</span>
+      </div>
+      <div class="nav-item" data-view="calendario">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="1"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        <span>CALENDARIO</span>
+      </div>
+      <div class="nav-item" data-view="tareas">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="9 12 11 14 15 10"/></svg>
+        <span>TAREAS</span>
+      </div>
+      <div class="nav-item" data-view="ajustes">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+        <span>AJUSTES</span>
+      </div>
+    </nav>
+
+    <div class="motivation-panel">
+      <div class="card-label">MOTIVACIÓN DEL DÍA</div>
+      <p class="motivation-text" id="motivationText">"Pequeños pasos cada día construyen grandes cambios"</p>
+    </div>
+
+    <div class="deco-block">
+      <div class="deco-row">
+        <span class="lit"></span><span class="lit"></span><span></span><span class="lit"></span><span></span>
+        <span class="lit"></span><span></span><span class="lit"></span><span class="lit"></span><span></span>
+      </div>
+      <div class="deco-mini-line"></div>
+      <div class="deco-row">
+        <span></span><span class="lit"></span><span class="lit"></span><span class="lit"></span><span></span>
+        <span class="lit"></span><span></span><span></span><span class="lit"></span><span></span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ============ MAIN CONTENT ============ -->
+  <main class="content">
+
+    <!-- ===== RESUMEN ===== -->
+    <section id="view-resumen">
+      <div class="kpi-row">
+        <!-- KPI: Hábitos completados (esta semana acumulado) -->
+        <div class="kpi-card">
+          <div class="kpi-title">HÁBITOS COMPLETADOS</div>
+          <div class="kpi-ring-wrap">
+            <svg viewBox="0 0 100 100">
+              <circle class="ring-bg" cx="50" cy="50" r="42" fill="none" stroke-width="4"/>
+              <circle id="ring1" class="ring-fg" cx="50" cy="50" r="42" fill="none" stroke-width="4" stroke-dasharray="263.9" stroke-dashoffset="263.9" transform="rotate(-90 50 50)"/>
+            </svg>
+            <div class="ring-center">
+              <div class="ring-value" id="kpiCompletedNum">0</div>
+              <div class="ring-unit">/<span id="kpiCompletedTotal">0</span></div>
+            </div>
+          </div>
+          <div class="kpi-footer"><span class="v" id="kpiCompletedPct">0</span>%</div>
+        </div>
+
+        <!-- KPI: Racha actual -->
+        <div class="kpi-card">
+          <div class="kpi-title">RACHA ACTUAL</div>
+          <div class="kpi-ring-wrap">
+            <svg viewBox="0 0 100 100">
+              <circle class="ring-bg" cx="50" cy="50" r="42" fill="none" stroke-width="4"/>
+              <circle id="ring2" class="ring-fg" cx="50" cy="50" r="42" fill="none" stroke-width="4" stroke-dasharray="263.9" stroke-dashoffset="263.9" transform="rotate(-90 50 50)"/>
+            </svg>
+            <div class="ring-center">
+              <div class="ring-value" id="kpiStreakNum">0</div>
+              <div class="ring-unit">DÍAS</div>
+            </div>
+          </div>
+          <div class="kpi-footer">MEJOR: <span class="v" id="kpiBestStreak">0</span> DÍAS</div>
+        </div>
+
+        <!-- KPI: Tasa de éxito -->
+        <div class="kpi-card">
+          <div class="kpi-title">TASA DE ÉXITO</div>
+          <div class="kpi-ring-wrap">
+            <svg viewBox="0 0 100 100">
+              <circle class="ring-bg" cx="50" cy="50" r="42" fill="none" stroke-width="4"/>
+              <circle id="ring3" class="ring-fg" cx="50" cy="50" r="42" fill="none" stroke-width="4" stroke-dasharray="263.9" stroke-dashoffset="263.9" transform="rotate(-90 50 50)"/>
+            </svg>
+            <div class="ring-center">
+              <div class="ring-value"><span id="kpiSuccessNum">0</span>%</div>
+            </div>
+          </div>
+          <div class="kpi-footer">ESTA SEMANA</div>
+        </div>
+
+        <!-- KPI: Hábitos activos -->
+        <div class="kpi-card">
+          <div class="kpi-title">HÁBITOS ACTIVOS</div>
+          <div class="kpi-ring-wrap">
+            <svg viewBox="0 0 100 100">
+              <circle class="ring-bg" cx="50" cy="50" r="42" fill="none" stroke-width="4"/>
+              <circle id="ring4" class="ring-fg" cx="50" cy="50" r="42" fill="none" stroke-width="4" stroke-dasharray="263.9" stroke-dashoffset="263.9" transform="rotate(-90 50 50)"/>
+            </svg>
+            <div class="ring-center">
+              <div class="ring-value" id="kpiActiveNum">0</div>
+              <div class="ring-unit">/10</div>
+            </div>
+          </div>
+          <div class="kpi-footer kpi-add" onclick="openHabitModal()">+ AÑADIR</div>
+        </div>
+      </div>
+
+      <div class="habits-card">
+        <h2 class="habits-title">MIS HÁBITOS</h2>
+        <table class="habits-table">
+          <thead>
+            <tr>
+              <th>HÁBITO</th>
+              <th>L</th><th>M</th><th>M</th><th>J</th><th>V</th><th>S</th><th>D</th>
+              <th>RACHA</th>
+            </tr>
+          </thead>
+          <tbody id="habitsTableBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ===== HÁBITOS (manage) ===== -->
+    <section id="view-habitos" class="hidden">
+      <!-- Vista DESKTOP (oculta en mobile) -->
+      <div class="desktop-only">
+        <div class="section-title-row">
+          <h2 class="section-title">GESTIÓN DE HÁBITOS</h2>
+          <button class="hud-btn" onclick="openHabitModal()">+ NUEVO HÁBITO</button>
+        </div>
+        <div class="manage-grid" id="manageGrid"></div>
+      </div>
+      <!-- Vista MOBILE (oculta en desktop) -->
+      <div class="mobile-only" id="mobileHabitsView">
+        <div class="mobile-habits-hoy" id="mobileHabitsHoy"></div>
+        <div class="mobile-habits-semana" id="mobileHabitsSemana"></div>
+        <div class="mobile-habits-resumen" id="mobileHabitsResumen"></div>
+      </div>
+    </section>
+
+    <!-- ===== ESTADÍSTICAS ===== -->
+    <section id="view-estadisticas" class="hidden">
+      <div class="section-title-row">
+        <h2 class="section-title">ESTADÍSTICAS</h2>
+      </div>
+      <div class="stats-toolbar">
+        <div class="stats-toolbar-lbl">UNIDAD DE TIEMPO</div>
+        <div class="seg-ctrl" id="statsUnitCtrl">
+          <button data-unit="week" class="active">SEMANAL</button>
+          <button data-unit="month">MENSUAL</button>
+          <button data-unit="year">ANUAL</button>
+        </div>
+      </div>
+      <div id="statsContainer"></div>
+    </section>
+
+    <!-- ===== CALENDARIO ===== -->
+    <section id="view-calendario" class="hidden">
+      <div class="section-title-row">
+        <h2 class="section-title">CALENDARIO</h2>
+      </div>
+      <div class="calendar-wrap">
+        <div class="cal-nav">
+          <button class="icon-btn" onclick="changeCalMonth(-1)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <div class="cal-month" id="calMonthLabel">— — —</div>
+          <button class="icon-btn" onclick="changeCalMonth(1)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+        <div class="cal-grid" id="calGrid"></div>
+      </div>
+    </section>
+
+    <!-- ===== TAREAS ===== -->
+    <section id="view-tareas" class="hidden">
+      <div class="section-title-row">
+        <h2 class="section-title">TAREAS</h2>
+      </div>
+
+      <!-- Contador semanal -->
+      <div class="task-counter-row">
+        <div class="task-counter-card done">
+          <div class="tc-lbl">REALIZADAS · SEMANA</div>
+          <div class="tc-val" id="tcDone">0</div>
+          <div class="tc-sub">TAREAS COMPLETADAS LUN — DOM</div>
+        </div>
+        <div class="task-counter-card miss">
+          <div class="tc-lbl">NO REALIZADAS</div>
+          <div class="tc-val" id="tcMiss">0</div>
+          <div class="tc-sub">PENDIENTES EN EL TABLERO</div>
+        </div>
+        <div class="task-counter-card">
+          <div class="tc-lbl">TASA · SEMANA</div>
+          <div class="tc-val" id="tcRate">0%</div>
+          <div class="tc-sub" id="tcRateSub">SIN ACTIVIDAD</div>
+        </div>
+      </div>
+
+      <!-- Line chart de tareas realizadas -->
+      <div class="task-chart-card">
+        <div class="task-chart-head">
+          <div class="task-chart-title">TAREAS REALIZADAS · LÍNEA DE TIEMPO</div>
+          <div class="seg-ctrl" id="taskRangeCtrl">
+            <button data-range="week" class="active">1 SEMANA</button>
+            <button data-range="month">1 MES</button>
+            <button data-range="year">1 AÑO</button>
+          </div>
+        </div>
+        <div class="task-chart-svg-wrap" id="taskChartWrap"></div>
+      </div>
+
+      <div class="tasks-wrap">
+        <div class="task-input-row">
+          <input type="text" class="task-input" id="taskInput" placeholder="Nueva tarea..." onkeydown="if(event.key==='Enter')addTask()">
+          <button class="hud-btn" onclick="addTask()">+ AÑADIR</button>
+        </div>
+        <div class="task-priority-picker" id="taskPriorityPicker">
+          <button type="button" class="priority-pill active" data-pri="urgent" onclick="selectTaskPriority('urgent')">
+            <span class="pp-dot"></span>URGENTE
+          </button>
+          <button type="button" class="priority-pill" data-pri="important" onclick="selectTaskPriority('important')">
+            <span class="pp-dot"></span>IMPORTANTE
+          </button>
+          <button type="button" class="priority-pill" data-pri="trivial" onclick="selectTaskPriority('trivial')">
+            <span class="pp-dot"></span>TRIVIAL
+          </button>
+        </div>
+        <div class="task-section-header">
+          <span class="tsh-label">— ACTIVAS —</span>
+        </div>
+        <div class="task-list" id="taskList"></div>
+
+        <div class="archived-panel" id="archivedPanel">
+          <div class="task-section-header archived-header" onclick="toggleArchivedPanel()">
+            <span class="tsh-chevron">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            </span>
+            <span class="tsh-label">ARCHIVADAS <span class="archived-count" id="archivedCount">0</span></span>
+            <button class="hud-btn secondary tiny" id="clearArchivedBtn" onclick="event.stopPropagation(); clearArchived()">VACIAR</button>
+          </div>
+          <div class="archived-body">
+            <div class="task-list archived-list" id="archivedList"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== AJUSTES ===== -->
+    <section id="view-ajustes" class="hidden">
+      <div class="section-title-row">
+        <h2 class="section-title">AJUSTES</h2>
+      </div>
+      <div class="settings-wrap">
+        <div class="setting-row">
+          <div>
+            <div class="setting-label">CIUDAD DEL CLIMA</div>
+            <div class="setting-desc">Latitud y longitud para Open-Meteo</div>
+          </div>
+          <div style="display:flex; gap:8px;">
+            <input type="text" class="form-input" id="setCity" style="width:140px" placeholder="Santiago">
+            <input type="number" step="0.01" class="form-input" id="setLat" style="width:90px" placeholder="-33.45">
+            <input type="number" step="0.01" class="form-input" id="setLon" style="width:90px" placeholder="-70.66">
+            <button class="hud-btn" onclick="saveCitySettings()">GUARDAR</button>
+          </div>
+        </div>
+        <div class="setting-row">
+          <div>
+            <div class="setting-label">FRASE MOTIVACIONAL</div>
+            <div class="setting-desc">Texto que aparece en el panel izquierdo</div>
+          </div>
+          <input type="text" class="form-input" id="setMotivation" style="width:340px" onblur="saveMotivation()">
+        </div>
+        <div class="setting-row">
+          <div>
+            <div class="setting-label">EXPORTAR DATOS</div>
+            <div class="setting-desc">Descarga un respaldo JSON con tu progreso</div>
+          </div>
+          <button class="hud-btn" onclick="exportData()">EXPORTAR</button>
+        </div>
+        <div class="setting-row">
+          <div>
+            <div class="setting-label">IMPORTAR DATOS</div>
+            <div class="setting-desc">Restaura desde un archivo JSON</div>
+          </div>
+          <label class="hud-btn" style="cursor:pointer">
+            IMPORTAR
+            <input type="file" accept="application/json" onchange="importData(event)" style="display:none">
+          </label>
+        </div>
+        <!-- V4.5 — ACORDEÓN AJUSTES AVANZADOS -->
+        <div class="setting-row adv-toggle-row" id="advToggleRow" onclick="toggleAdvancedSettings()">
+          <div>
+            <div class="setting-label">AJUSTES AVANZADOS</div>
+            <div class="setting-desc">Personalización de pantalla y categorías</div>
+          </div>
+          <div class="adv-chevron">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+        </div>
+
+        <div class="advanced-settings" id="advancedSettings">
+
+          <!-- Sección SINCRONIZACIÓN EN LA NUBE -->
+          <div class="adv-section">
+            <div class="adv-section-title">SINCRONIZACIÓN EN LA NUBE</div>
+            <div class="setting-desc" style="padding: 0 4px 8px;">
+              Mantén el mismo progreso en el computador y el celular. V7 guarda tus datos en un
+              <strong>Gist secreto de tu cuenta de GitHub</strong> (un archivo por área: núcleo, piel, gym, plata).
+              <br><br>
+              1) En GitHub: Settings → Developer settings → Personal access tokens → <strong>Tokens (classic)</strong> →
+              Generate new token, marca SOLO el permiso <strong>gist</strong>. 2) Pégalo abajo y toca PROBAR Y GUARDAR:
+              la app crea el Gist sola. 3) En el otro dispositivo pega el mismo token y el GIST ID que aparece aquí.
+            </div>
+            <div class="cloud-status">
+              <span class="cloud-dot" id="cloudStatusDot"></span>
+              <span id="cloudStatusText">SIN CONFIGURAR</span>
+            </div>
+            <div class="setting-row">
+              <div>
+                <div class="setting-label">GIST ID</div>
+                <div class="setting-desc">Déjalo vacío la primera vez: se crea solo</div>
+              </div>
+              <input type="text" class="form-input" id="setCloudBin" style="width:280px" placeholder="(se crea solo)">
+            </div>
+            <div class="setting-row">
+              <div>
+                <div class="setting-label">TOKEN GITHUB</div>
+                <div class="setting-desc">Token classic con permiso "gist". Se guarda solo en este dispositivo</div>
+              </div>
+              <input type="password" class="form-input" id="setCloudKey" style="width:280px" placeholder="ghp_...">
+            </div>
+            <div class="setting-row">
+              <div>
+                <div class="setting-label">PROBAR Y GUARDAR</div>
+                <div class="setting-desc">Verifica la conexión antes de activar</div>
+              </div>
+              <button class="hud-btn" onclick="cloudTestAndSave()">PROBAR Y GUARDAR</button>
+            </div>
+            <div class="setting-row">
+              <div>
+                <div class="setting-label">SINCRONIZACIÓN AUTOMÁTICA</div>
+                <div class="setting-desc">Sube los cambios solos unos segundos después de editar</div>
+              </div>
+              <label style="display:flex; align-items:center; gap:10px; cursor:pointer;">
+                <input type="checkbox" id="setCloudAuto" onchange="toggleCloudAutoSync()" style="accent-color: var(--cyan); cursor:pointer;">
+              </label>
+            </div>
+            <div class="setting-row">
+              <div>
+                <div class="setting-label">SINCRONIZAR AHORA</div>
+                <div class="setting-desc">Baja lo último y sube tus cambios manualmente</div>
+              </div>
+              <button class="hud-btn" onclick="cloudSyncNow()">SINCRONIZAR AHORA</button>
+            </div>
+            <div class="setting-row" id="legacyJsonbinRow" style="display:none">
+              <div>
+                <div class="setting-label">TRAER DESDE V6 (JSONBIN)</div>
+                <div class="setting-desc">Baja una vez tu progreso de la V6 y lo junta con este</div>
+              </div>
+              <button class="hud-btn" onclick="Sync.importLegacyJsonbin()">IMPORTAR</button>
+            </div>
+          </div>
+
+          <!-- Sección ESTILO -->
+          <div class="adv-section">
+            <div class="adv-section-title">ESTILO VISUAL</div>
+            <div class="setting-desc" style="padding: 0 4px 8px;">Cambia la apariencia completa de la app. Tus datos no se tocan.</div>
+            <div class="theme-picker" id="themePicker">
+              <div class="theme-card" data-theme="futurista">
+                <div class="theme-preview preview-futurista"><span class="tp-stripe"></span><span class="tp-dot"></span></div>
+                <div class="theme-name">FUTURISTA</div>
+                <div class="theme-desc">HUD CYAN · DEFAULT</div>
+              </div>
+              <div class="theme-card" data-theme="minimalista">
+                <div class="theme-preview preview-minimalista"><span class="tp-stripe"></span><span class="tp-dot"></span></div>
+                <div class="theme-name">MINIMALISTA</div>
+                <div class="theme-desc">NEGRO + ORO</div>
+              </div>
+              <div class="theme-card" data-theme="elegante">
+                <div class="theme-preview preview-elegante"><span class="tp-stripe"></span><span class="tp-dot"></span></div>
+                <div class="theme-name">ELEGANTE</div>
+                <div class="theme-desc">BEIGE + MARRÓN</div>
+              </div>
+              <div class="theme-card" data-theme="pinki">
+                <div class="theme-preview preview-pinki"><span class="tp-stripe"></span><span class="tp-dot"></span></div>
+                <div class="theme-name">PINKI</div>
+                <div class="theme-desc">ROSA PASTEL</div>
+              </div>
+              <div class="theme-card" data-theme="grafiti">
+                <div class="theme-preview preview-grafiti"><span class="tp-stripe"></span><span class="tp-dot"></span></div>
+                <div class="theme-name">GRAFITI</div>
+                <div class="theme-desc">URBAN STREET</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sección PANTALLA -->
+          <div class="adv-section">
+            <div class="adv-section-title">PANTALLA</div>
+
+            <div class="setting-row">
+              <div>
+                <div class="setting-label">TÍTULO PRINCIPAL</div>
+                <div class="setting-desc">El texto grande de arriba a la izquierda</div>
+              </div>
+              <input type="text" class="form-input" id="setBrandTitle" style="width:280px" onblur="saveBrandTitle()" onkeydown="if(event.key==='Enter')this.blur()">
+            </div>
+
+            <div class="setting-row">
+              <div>
+                <div class="setting-label">SUBTÍTULO</div>
+                <div class="setting-desc">Texto pequeño bajo el título principal</div>
+              </div>
+              <input type="text" class="form-input" id="setBrandSub" style="width:280px" onblur="saveBrandSub()" onkeydown="if(event.key==='Enter')this.blur()">
+            </div>
+
+            <div class="setting-row">
+              <div>
+                <div class="setting-label">MARCA CENTRAL</div>
+                <div class="setting-desc">Texto opcional al centro del header. Deja vacío para ocultar</div>
+              </div>
+              <input type="text" class="form-input" id="setHebrewMark" style="width:280px; font-family: var(--font-hebrew); font-size:16px;" onblur="saveHebrewMark()" onkeydown="if(event.key==='Enter')this.blur()">
+            </div>
+          </div>
+
+          <!-- Sección CATEGORÍAS -->
+          <div class="adv-section">
+            <div class="adv-section-title">CATEGORÍAS DE HÁBITOS</div>
+            <div class="setting-desc" style="padding: 0 4px 8px;">Edita el nombre y el color de cada categoría. Los cambios se reflejan en el donut, la edición de hábitos y los acentos visuales.</div>
+            <div class="cat-editor" id="catEditor"></div>
+          </div>
+
+        </div>
+
+        <div class="setting-row">
+          <div>
+            <div class="setting-label" style="color:var(--danger)">RESTABLECER</div>
+            <div class="setting-desc">Borra todo y vuelve a los hábitos por defecto</div>
+          </div>
+          <button class="hud-btn danger" onclick="resetData()">BORRAR TODO</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MÁS (solo mobile, hub de acceso a otras vistas) ===== -->
+    <section id="view-mas" class="hidden">
+      <div class="section-title-row">
+        <h2 class="section-title">MÁS</h2>
+      </div>
+      <div class="mas-list">
+        <button class="mas-item" onclick="switchView('tareas')">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="9 12 11 14 15 10"/></svg>
+          <div class="mas-info">
+            <div class="mas-name">TAREAS</div>
+            <div class="mas-desc" id="masTareasDesc">activas y archivadas</div>
+          </div>
+          <svg class="mas-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="9 6 15 12 9 18"/></svg>
+        </button>
+        <button class="mas-item" onclick="switchView('ajustes')">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          <div class="mas-info">
+            <div class="mas-name">AJUSTES</div>
+            <div class="mas-desc">tema, sync, categorías, backup</div>
+          </div>
+          <svg class="mas-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="9 6 15 12 9 18"/></svg>
+        </button>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ SIDEBAR DERECHA ============ -->
+  <aside class="sidebar-right">
+    <!-- Weather -->
+    <div class="hud-card weather-card">
+      <div class="card-label">CLIMA</div>
+      <div class="weather-top">
+        <div>
+          <div class="weather-temp"><span id="wTemp">--</span>°C</div>
+          <div class="weather-desc" id="wDesc">Cargando...</div>
+        </div>
+        <div class="weather-icon" id="wIcon"></div>
+      </div>
+      <div class="weather-meta">
+        <div>HUMEDAD: <span class="v" id="wHum">--%</span></div>
+        <div>VIENTO: <span class="v" id="wWind">-- km/h</span></div>
+        <div>SENSACIÓN: <span class="v" id="wFeel">--°C</span></div>
+      </div>
+    </div>
+
+    <!-- Bar chart -->
+    <div class="hud-card">
+      <div class="card-label">ESTADÍSTICAS · SEMANA</div>
+      <div style="display:flex; gap:6px; align-items:flex-end;">
+        <div class="bar-y-axis">
+          <span>100%</span>
+          <span>50%</span>
+          <span>0%</span>
+        </div>
+        <div class="bar-chart" id="barChart"></div>
+      </div>
+    </div>
+
+    <!-- Donut -->
+    <div class="hud-card">
+      <div class="card-label">DISTRIBUCIÓN</div>
+      <div class="donut-wrap">
+        <svg class="donut-svg" id="donutSvg" viewBox="0 0 42 42"></svg>
+        <div class="donut-legend" id="donutLegend"></div>
+      </div>
+    </div>
+
+    <!-- Best streak -->
+    <div class="hud-card">
+      <div class="card-label">RACHA MÁS LARGA</div>
+      <div class="best-streak">
+        <div class="trophy-box">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+        </div>
+        <div>
+          <div><span class="best-num" id="bestStreakNum">0</span> <span class="best-num-unit">DÍAS</span></div>
+          <div class="best-name" id="bestStreakName">—</div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+</div>
+
+<!-- ============ BOTTOM NAV (solo mobile) ============ -->
+<nav class="bottom-nav" id="bottomNav">
+  <button class="bn-item" data-view="habitos" onclick="switchView('habitos')">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+    <span>HÁBITOS</span>
+  </button>
+  <button class="bn-item" data-view="estadisticas" onclick="switchView('estadisticas')">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 17 9 11 13 15 21 7"/><polyline points="14 7 21 7 21 14"/></svg>
+    <span>STATS</span>
+  </button>
+  <button class="bn-item" data-view="calendario" onclick="switchView('calendario')">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="1"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+    <span>CALEND.</span>
+  </button>
+  <button class="bn-item" data-view="mas" onclick="switchView('mas')">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    <span>MÁS</span>
+  </button>
+</nav>
+
+<!-- ============ FAB (solo mobile) ============ -->
+<button class="fab" id="fab" onclick="fabAction()" aria-label="Crear">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+</button>
+
+<!-- ============ HABIT MODAL ============ -->
+<div class="modal-overlay" id="habitModal" onclick="if(event.target===this)closeHabitModal()">
+  <div class="modal">
+    <div class="modal-title" id="modalTitle">NUEVO HÁBITO</div>
+    <div class="form-group">
+      <label class="form-label">NOMBRE</label>
+      <input type="text" class="form-input" id="habitName" placeholder="Ej: Meditar">
+    </div>
+    <div class="form-group">
+      <label class="form-label">DESCRIPCIÓN (OPCIONAL)</label>
+      <input type="text" class="form-input" id="habitSub" placeholder="Ej: 10 min al día">
+    </div>
+    <div class="form-group">
+      <label class="form-label">CATEGORÍA</label>
+      <select class="form-select" id="habitCategory"></select>
+    </div>
+    <div class="form-group">
+      <label class="form-label">ICONO</label>
+      <div class="icon-picker" id="iconPicker"></div>
+    </div>
+    <div class="modal-actions">
+      <button class="hud-btn danger left hidden" id="deleteBtn" onclick="deleteFromModal()">ELIMINAR</button>
+      <button class="hud-btn secondary" onclick="closeHabitModal()">CANCELAR</button>
+      <button class="hud-btn" onclick="saveHabitModal()">GUARDAR</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ V4.4: MODAL NUEVO EVENTO ============ -->
+<div class="modal-overlay" id="eventModal" onclick="if(event.target===this)closeEventModal()">
+  <div class="modal">
+    <div class="modal-title">NUEVO EVENTO</div>
+    <div class="form-group">
+      <label class="form-label">EVENTO</label>
+      <input type="text" class="form-input" id="evText" placeholder="Ej: Cumpleaños de Pablo">
+    </div>
+    <div class="form-group">
+      <label class="form-label">FECHA</label>
+      <input type="date" class="form-input" id="evDate">
+    </div>
+    <div class="form-group">
+      <label class="form-label" style="display:flex; align-items:center; gap:10px;">
+        <input type="checkbox" id="evAllDay" checked style="accent-color: var(--cyan); cursor:pointer;">
+        <span>TODO EL DÍA</span>
+      </label>
+    </div>
+    <div class="form-group" id="evTimeGroup" style="display:none;">
+      <label class="form-label">HORARIO</label>
+      <input type="time" class="form-input" id="evTime" value="09:00">
+    </div>
+    <div class="modal-actions">
+      <button class="hud-btn secondary" onclick="closeEventModal()">CANCELAR</button>
+      <button class="hud-btn" onclick="saveEventModal()">GUARDAR</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ V4.4: DRAWER DEL DÍA ============ -->
+<div class="drawer-overlay" id="drawerOverlay" onclick="closeDayDrawer()"></div>
+<aside class="drawer" id="dayDrawer" aria-hidden="true">
+  <button class="drawer-close" onclick="closeDayDrawer()" aria-label="Cerrar">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" y1="6" x2="18" y2="18"/><line x1="6" y1="18" x2="18" y2="6"/></svg>
+  </button>
+  <div class="drawer-day-name" id="drawerDayName">— —</div>
+  <div class="drawer-date-big" id="drawerDateBig">—</div>
+
+  <div class="drawer-section">
+    <div class="drawer-section-label">EVENTOS · <span id="drawerEventCount">0</span></div>
+    <div class="drawer-events-list" id="drawerEventsList"></div>
+    <button class="hud-btn" onclick="openEventModalForDate()">+ NUEVO EVENTO ESTE DÍA</button>
+  </div>
+</aside>
+
+<div class="toast" id="toast" style="position:fixed;"><span class="toast-msg" id="toastMsg">OK</span></div>
+
+<!-- ============ V7 · SCRIPTS ============
+     Orden: núcleo → API de módulos → sincronización → módulos → juego → arranque -->
+<script src="core/core.js"></script>
+<script src="core/app.js"></script>
+<script src="core/sync.js"></script>
+<script src="modules/hoy/hoy.js"></script>
+<script src="modules/piel/piel.js"></script>
+<script src="modules/gym/gym.js"></script>
+<script src="modules/plata/plata.js"></script>
+<script src="modules/datos/datos.js"></script>
+<script src="game/game.js"></script>
+<!-- V8 · "Milo: El gran noqueo" — modo juego de peleas contra jefes -->
+<script src="game2/core.js"></script>
+<script src="game2/audio.js"></script>
+<script src="game2/player.js"></script>
+<script src="game2/boss_rasquina.js"></script>
+<script src="game2/boss_pantallon.js"></script>
+<script src="game2/boss_gaston.js"></script>
+<script src="game2/boss_flojera.js"></script>
+<script src="game2/screens.js"></script>
+<script>App.boot();</script>
+</body>
+</html>

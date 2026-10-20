@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Milo · El gran noqueo (dev)</title>
+<style>body{margin:0;background:#111;color:#eee;font-family:sans-serif}</style>
+</head>
+<body>
+<!-- Página de pruebas del juego sin la app: dev.html?scene=fight&boss=rasquina -->
+<script src="core.js"></script>
+<script src="audio.js"></script>
+<script src="player.js"></script>
+<script src="boss_rasquina.js"></script>
+<script src="boss_pantallon.js"></script>
+<script src="boss_gaston.js"></script>
+<script src="boss_flojera.js"></script>
+<script src="screens.js"></script>
+<script>
+  const q = new URLSearchParams(location.search);
+  MG.open(q.get('scene') || 'title', { bossId: q.get('boss') || undefined });
+</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+/* gym/gym.css — solo estilos propios del módulo GYM */
+.gym-datenav { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.gym-datenav .m-btn { min-width: 44px; padding: 0; }
+.gym-datenav .gym-date { flex: 1; text-align: center; font-weight: 700; color: var(--text-bright); font-size: 16px; text-transform: capitalize; }
+.gym-ex-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.gym-ex-name { font-weight: 700; font-size: 17px; color: var(--text-bright); }
+.gym-prev { font-size: 13px; color: var(--text-dim); font-family: var(--font-mono); }
+.gym-sets { display: flex; flex-direction: column; gap: 6px; }
+.gym-set { display: grid; grid-template-columns: 26px minmax(0,1fr) 14px minmax(0,1fr) 40px; gap: 6px; align-items: center; }
+.gym-set .gym-n { font-family: var(--font-mono); color: var(--text-dim); font-size: 13px; text-align: center; }
+.gym-set .gym-x { color: var(--text-dim); text-align: center; }
+.gym-set .gym-del { min-height: 40px; min-width: 40px; padding: 0; border: 1px solid var(--cyan-line); background: var(--bg-1); color: var(--text-dim); border-radius: 5px; font-size: 16px; cursor: pointer; }
+.gym-unit { font-size: 11px; color: var(--text-dim); font-family: var(--font-mono); text-align: center; }
+.gym-e1 { font-size: 14px; color: var(--text); display: flex; align-items: center; gap: 8px; flex-wrap: wrap; min-height: 22px; }
+.gym-rec { display: inline-block; padding: 1px 8px; border-radius: 10px; border: 1px solid var(--success); color: var(--success); font-family: var(--font-mono); font-size: 11px; letter-spacing: .08em; }
+.gym-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.gym-actions .m-btn { flex: 1; }
+.gym-link { background: none; border: none; color: var(--cyan); text-decoration: underline; font-size: 14px; cursor: pointer; padding: 8px 0; font-family: var(--font-body); text-align: left; }
+.gym-plan-row { display: grid; grid-template-columns: minmax(0,1fr) 54px 74px; gap: 6px; }
+.gym-plan-tools { display: flex; gap: 6px; }
+.gym-plan-tools .m-btn { flex: 1; min-height: 38px; padding: 0; }
+.gym-wk { width: 100%; border-collapse: collapse; font-size: 14px; }
+.gym-wk th { font-family: var(--font-mono); font-size: 11px; font-weight: 400; color: var(--text-dim); text-align: right; padding: 4px 4px; letter-spacing: .06em; }
+.gym-wk td { text-align: right; padding: 7px 4px; border-top: 1px solid var(--cyan-line-soft); font-family: var(--font-mono); }
+.gym-wk th:first-child, .gym-wk td:first-child { text-align: left; }
+.gym-wk td.c, .gym-wk th.c { text-align: center; }
+.gym-meas-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 10px; }
+.gym-toggle { display: flex; align-items: center; gap: 10px; min-height: 44px; width: 100%; background: none; border: none; color: var(--text); font-family: var(--font-body); font-size: 16px; text-align: left; padding: 0; cursor: pointer; }
+.gym-toggle .box { width: 22px; height: 22px; border-radius: 4px; border: 1.5px solid var(--text-dim); flex: none; display: flex; align-items: center; justify-content: center; font-size: 14px; line-height: 1; color: var(--bg-0); }
+.gym-toggle.on .box { background: var(--cyan); border-color: var(--cyan); }
+.gym-toggle.on span.t { color: var(--text-bright); }
+.gym-toggle.auto { cursor: default; }
+.gym-dot { display: inline-block; width: 12px; height: 12px; border-radius: 50%; border: 1.5px solid var(--text-dim); vertical-align: middle; }
+.gym-dot.on { background: var(--cyan); border-color: var(--cyan); }
+.gym-dot.part { background: var(--warning); border-color: var(--warning); }
+.gym-hist-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: 15px; }
+.gym-hist-row .m-btn { min-height: 34px; min-width: 40px; padding: 0 8px; }
+.gym-scroll { overflow-x: auto; }
+.gym-chart-wrap text { font-family: var(--font-mono); }

@@ -1,0 +1,1877 @@
+{
+ "fuente": "Excel \"como ha estado mi alergia\" (22-ago → 18-oct-2026) reescrito al formato de la app + reloj Huawei (20-sep → 19-oct)",
+ "nota": "Puntajes del Excel redondeados al entero (x,5 hacia arriba). picor estimado desde el texto. Textos originales en legacy.",
+ "dias": {
+  "2026-08-12": {
+   "picor": null,
+   "piel": null,
+   "sueno": null,
+   "pantalla": "",
+   "acostado": "",
+   "levantado": "",
+   "trat": {
+    "emoliente": [],
+    "tacrolimus": [],
+    "corticoide": [
+     "M",
+     "N"
+    ],
+    "hipoclorito": []
+   },
+   "nota": "Viaje a Buenos Aires. Hidrocortisona 1 % mañana y noche en cuello, pliegues de brazos, pecho y algo de espalda (fechas aproximadas). Bajó un poco la picazón.",
+   "fotos": false,
+   "legacy": null,
+   "ts": 1792432800000
+  },
+  "2026-08-13": {
+   "picor": null,
+   "piel": null,
+   "sueno": null,
+   "pantalla": "",
+   "acostado": "",
+   "levantado": "",
+   "trat": {
+    "emoliente": [],
+    "tacrolimus": [],
+    "corticoide": [
+     "M",
+     "N"
+    ],
+    "hipoclorito": []
+   },
+   "nota": "Viaje a Buenos Aires. Hidrocortisona 1 % mañana y noche en cuello, pliegues de brazos, pecho y algo de espalda (fechas aproximadas). Bajó un poco la picazón.",
+   "fotos": false,
+   "legacy": null,
+   "ts": 1792432800001
+  },
+  "2026-08-14": {
+   "picor": null,
+   "piel": null,
+   "sueno": null,
+   "pantalla": "",
+   "acostado": "",
+   "levantado": "",
+   "trat": {
+    "emoliente": [],
+    "tacrolimus": [],
+    "corticoide": [
+     "M",
+     "N"
+    ],
+    "hipoclorito": []
+   },
+   "nota": "Viaje a Buenos Aires. Hidrocortisona 1 % mañana y noche en cuello, pliegues de brazos, pecho y algo de espalda (fechas aproximadas). Bajó un poco la picazón.",
+   "fotos": false,
+   "legacy": null,
+   "ts": 1792432800002
+  },
+  "2026-08-15": {
+   "picor": null,
+   "piel": null,
+   "sueno": null,
+   "pantalla": "",
+   "acostado": "",
+   "levantado": "",
+   "trat": {
+    "emoliente": [],
+    "tacrolimus": [],
+    "corticoide": [
+     "M",
+     "N"
+    ],
+    "hipoclorito": []
+   },
+   "nota": "Viaje a Buenos Aires. Hidrocortisona 1 % mañana y noche en cuello, pliegues de brazos, pecho y algo de espalda (fechas aproximadas). Bajó un poco la picazón.",
+   "fotos": false,
+   "legacy": null,
+   "ts": 1792432800003
+  },
+  "2026-08-16": {
+   "picor": null,
+   "piel": null,
+   "sueno": null,
+   "pantalla": "",
+   "acostado": "",
+   "levantado": "",
+   "trat": {
+    "emoliente": [],
+    "tacrolimus": [],
+    "corticoide": [
+     "M",
+     "N"
+    ],
+    "hipoclorito": []
+   },
+   "nota": "Viaje a Buenos Aires. Hidrocortisona 1 % mañana y noche en cuello, pliegues de brazos, pecho y algo de espalda (fechas aproximadas). Bajó un poco la picazón.",
+   "fotos": false,
+   "legacy": null,
+   "ts": 1792432800004
+  },
+  "2026-08-17": {
+   "picor": null,
+   "piel": null,
+   "sueno": null,
+   "pantalla": "",
+   "acostado": "",
+   "levantado": "",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [
+     "M",
+     "N"
+    ],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Viaje. Tacrolimus (Cromodin 0,1 %) dos veces al día y emolientes (fechas aproximadas). Piel parecida a los días anteriores.",
+   "fotos": false,
+   "legacy": null,
+   "ts": 1792432800005
+  },
+  "2026-08-18": {
+   "picor": null,
+   "piel": null,
+   "sueno": null,
+   "pantalla": "",
+   "acostado": "",
+   "levantado": "",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [
+     "M",
+     "N"
+    ],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Viaje. Tacrolimus (Cromodin 0,1 %) dos veces al día y emolientes (fechas aproximadas). Piel parecida a los días anteriores.",
+   "fotos": false,
+   "legacy": null,
+   "ts": 1792432800006
+  },
+  "2026-08-19": {
+   "picor": null,
+   "piel": null,
+   "sueno": null,
+   "pantalla": "",
+   "acostado": "",
+   "levantado": "",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [
+     "M",
+     "N"
+    ],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Viaje. Tacrolimus (Cromodin 0,1 %) dos veces al día y emolientes (fechas aproximadas). Piel parecida a los días anteriores.",
+   "fotos": false,
+   "legacy": null,
+   "ts": 1792432800007
+  },
+  "2026-08-20": {
+   "picor": null,
+   "piel": null,
+   "sueno": null,
+   "pantalla": "",
+   "acostado": "",
+   "levantado": "",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Viaje. La picazón empezó a subir bastante (fecha aproximada).",
+   "fotos": false,
+   "legacy": null,
+   "ts": 1792432800008
+  },
+  "2026-08-21": {
+   "picor": null,
+   "piel": null,
+   "sueno": null,
+   "pantalla": "",
+   "acostado": "",
+   "levantado": "",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Volví de Buenos Aires en avión y dormí muy poco; la picazón siguió subiendo.",
+   "fotos": false,
+   "legacy": null,
+   "ts": 1792432800009
+  },
+  "2026-08-22": {
+   "picor": 7,
+   "piel": 6,
+   "sueno": 5,
+   "pantalla": "",
+   "acostado": "23:30",
+   "levantado": "07:30",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": [
+     "?"
+    ]
+   },
+   "nota": "Me acosté 23:30 y me dormí ~01:30 (2 h tratando); dormí ~6 h. Piel con costras, roja e inflamada. Hipoclorito: balde + toalla (en realidad al 0,025 %, ver 7-sep).",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Emolientes (cera ve y aquafort) y baño con hipoclorito al 0.0025% (en realidad 0.025%. El 7 de septiembre se entiende porque) -> me confundí de cantidad e hice la cantidad de 1l de agua para 2 litros de agua, por eso la concentración de hipoclorito la marqué menor.",
+    "hipoclorito": "Si",
+    "metodo_hipoclorito": "Use un recipiente de dos litros y una toalla pequeña, la cual me pasaba por las zonas afectadas.",
+    "sueno_texto": "Bastante mal, me costó 2 horas quedarme dormido nivel: 5/10 (dormí como 6h)",
+    "piel_texto": "Esta con bastante costras, lo cual no es malo, pero si esta bastante roja e inflamada. nivel: 6/10",
+    "adicional": "Ya está todo explicado."
+   },
+   "ts": 1792432800010
+  },
+  "2026-08-23": {
+   "picor": 8,
+   "piel": 5,
+   "sueno": 4,
+   "pantalla": "",
+   "acostado": "00:30",
+   "levantado": "07:00",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Me acosté 00:30 y me dormí ~02:00; me levanté 07:00 (~5 h). Me rasqué toda la noche pese a uñas cortísimas: amanecí muy rojo y con alergia nueva. Cera Ve + Aquafort.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Crema Aqua fort y cera ve",
+    "hipoclorito": "No",
+    "sueno_texto": "Bastante mal, me costó cerca de 1.5 horas quedarme dormido. Me tenía que levantar un poco más temprano así que no dormí tanto. Me rasque mucho en la noche pese a tener las uñas cortísimas. Nivel: 4/10 (dormí como 5h)",
+    "piel_texto": "Hoy está mucho más rojiza y con alergia nueva, así que diría 5/10",
+    "adicional": "Se me enrojeció mucho, como si me hubiera intentado rascar con las uñas muy cortas por todo el cuerpo toda la noche."
+   },
+   "ts": 1792432800011
+  },
+  "2026-08-24": {
+   "picor": 8,
+   "piel": 4,
+   "sueno": 4,
+   "pantalla": "",
+   "acostado": "00:45",
+   "levantado": "06:30",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Me acosté tarde estudiando y me dormí ~01:45; ~4,5–5 h. Me rasqué muchísimo la espalda. Piel escamada, seca y roja. Dosis semanal de vitamina D (50.000 UI).",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Crema Cera Ve",
+    "hipoclorito": "no",
+    "sueno_texto": "Resulta que esta noche me acoste un poco tarde porque estaba estudiando, y para mas remate, me costo como 1 hora dormir profundo, y me acuerdo que en la noche me rasque muchísimo la espalda. Nivel: 4/10 (dormí como 4.5 -5h)",
+    "piel_texto": "Hoy está mas escamada, rojiza, y la piel la siento mas seca e incomoda, como si la piel dejara de sentirse como piel y ahora parecieran escamas. Nivel: 4/10",
+    "adicional": "Me toco tomar la dosis semanal de vitamina D de 50.000 UI"
+   },
+   "ts": 1792432800012
+  },
+  "2026-08-25": {
+   "picor": 6,
+   "piel": 5,
+   "sueno": 6,
+   "pantalla": "",
+   "acostado": "23:15",
+   "levantado": "06:30",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [
+     "M"
+    ],
+    "hipoclorito": []
+   },
+   "nota": "Me acosté 23:15 y me dormí rápido (muy cansado); ~7 h, pero me rasqué bastante. Costras nuevas en el cuello. Empiezo clobetasol 0,1 % para cortar el brote a tiempo.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Crema cera Ve, y corticoide topico clobetasol 0.1% en la mañana",
+    "hipoclorito": "No",
+    "sueno_texto": "Esta noche no dormí tan mal, ya que estaba muy cansado, pero si me rasque bastante en la noche. Nivel: 6/10 (acá dormí como 7h)",
+    "piel_texto": "Tengo un par de costras nuevas en el cuello, pero en lo demás ha bajado un poco. Nivel: 5/10",
+    "adicional": "ya que mi piel estaba para la embarrada, aplique corticoide, para a partir de ahora, como hice una investigación con clade y vi que no es tan malo el corticoide, voy a parar los brotes cuando recién se estén formando para que no me pase lo de ahora (estar mal para usar corticoide)"
+   },
+   "ts": 1792432800013
+  },
+  "2026-08-26": {
+   "picor": 2,
+   "piel": 7,
+   "sueno": 9,
+   "pantalla": "",
+   "acostado": "17:30",
+   "levantado": "07:20",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [
+     "M"
+    ],
+    "hipoclorito": []
+   },
+   "nota": "Me acosté 17:30 agotado y me levanté 07:20: ~14 h casi sin rascarme. El corticoide me ayudó mucho a dormir. Piel encostrada y roja, pero mejorando.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Crema cera ve y clobetasol 0.1% en la mañana",
+    "hipoclorito": "No",
+    "sueno_texto": "Espectacular diría 8.5/10 porque si me rasque un poco pero casi nada. Ese día estaba demasiado cansado (lo cual igual influyó) y me acoste a las 5:30 pm y me levante a las 7:20 am, dormí cerca de 14 horas. Lo necesitaba y el corticoide me ayudó mucho a dormir bien)",
+    "piel_texto": "6.5/10 ya que sigo con la piel encostrada y roja por el brote, pero se nota que está mejorando.",
+    "adicional": "Que dormí muchísimo, cosa para la cual el corticoide me ayudó un montón. Pude dormir 14h y me recuperé por completo del cansancio acomunado."
+   },
+   "ts": 1792432800014
+  },
+  "2026-08-27": {
+   "picor": 2,
+   "piel": 8,
+   "sueno": 9,
+   "pantalla": "",
+   "acostado": "22:30",
+   "levantado": "06:45",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [
+     "M"
+    ],
+    "hipoclorito": []
+   },
+   "nota": "Me dormí casi al tiro y ni desarmé la cama; me rasqué poco. La piel mejora mucho con el corticoide; faltan las heridas profundas. Sin hipoclorito: el corticoide quita la picazón.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve y clobetasol en la mañana.",
+    "hipoclorito": "No",
+    "sueno_texto": "Dormí 9/10 no me costó casi nada quedar dormido, casi no me moví (no desarme la cama) y me rasque poco.",
+    "piel_texto": "La piel va mejorado considerablemente por el corticoide. Mts solo que las heridas más profundas se curen. Nivel: 7.5/10",
+    "adicional": "Todo está explicado. Lo único es que no he usado últimamente el hipoclorito porque no he visto la necesidad debido a que el corticoide me deja sin picazón."
+   },
+   "ts": 1792432800015
+  },
+  "2026-08-28": {
+   "picor": 2,
+   "piel": 8,
+   "sueno": 9,
+   "pantalla": "",
+   "acostado": "22:45",
+   "levantado": "06:45",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [
+     "M"
+    ],
+    "hipoclorito": []
+   },
+   "nota": "Dormí muy bien, me rasqué muy poco. Se fue la inflamación; quedan llagas profundas. Fin de la fase 1 del corticoide: mañana fase 2 (clobetasol AM + tacrolimus PM, 5 días).",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve y corticoide en la mañana",
+    "hipoclorito": "No",
+    "sueno_texto": "Dormí 9/10, donde me rasque pero muy poco.",
+    "piel_texto": "La piel ya está 8/10 donde se va mejorando considerablemente y solo quedan las llagas profundas. Y la inflamación desapareció",
+    "adicional": "Doy como terminada la fase uno de corticoide (hasta desaparecer la inflamacion) objetivo logrado. Así que mañana paso a la fase dos que es en la mañana corticoide y en la tarde tacrolimus por 5 días."
+   },
+   "ts": 1792432800016
+  },
+  "2026-08-29": {
+   "picor": 2,
+   "piel": 8,
+   "sueno": 9,
+   "pantalla": "",
+   "acostado": "23:30",
+   "levantado": "08:30",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [
+     "N"
+    ],
+    "corticoide": [
+     "M"
+    ],
+    "hipoclorito": []
+   },
+   "nota": "Dormí muy bien, me rasqué solo un poco. Cada vez queda menos eccema (puntaje de piel estimado). Día 1 de la fase 2: clobetasol en la mañana y tacrolimus en la noche.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve, clobetasol Am, y tacrolimus pm.",
+    "hipoclorito": "No",
+    "sueno_texto": "Muy pero mu bien me rasque solo un poco así que 9/10",
+    "piel_texto": "La piel mejoró muchísimo, ahora cada vez queda menos eccema.",
+    "adicional": "Hoy empeze etapa dos de el corticoide, con corti en la mañana, y en la noche con tacrolimus."
+   },
+   "ts": 1792432800017
+  },
+  "2026-08-30": {
+   "picor": 3,
+   "piel": 8,
+   "sueno": 9,
+   "pantalla": "",
+   "acostado": "23:30",
+   "levantado": "08:30",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [
+     "N"
+    ],
+    "corticoide": [
+     "M"
+    ],
+    "hipoclorito": []
+   },
+   "nota": "Dormí muy bien, aunque me rasqué un poco el cuello. Piel mucho menos inflamada, con algunas heridas nuevas en el cuello. Día 2 de la fase 2.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve, clobetasol en la mañana y tacrolimus en la noche",
+    "hipoclorito": "No",
+    "sueno_texto": "Muy bien, aunque me rasque un poco en el cuello. 8.5/10",
+    "piel_texto": "La piel está mucho menos inflamada, aunque con un poco de heridas nuevas en el cuello. 8/10",
+    "adicional": "Día 2 de la etapa dos."
+   },
+   "ts": 1792432800018
+  },
+  "2026-08-31": {
+   "picor": 4,
+   "piel": 9,
+   "sueno": 7,
+   "pantalla": "",
+   "acostado": "23:00",
+   "levantado": "06:45",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [
+     "N"
+    ],
+    "corticoide": [
+     "M"
+    ],
+    "hipoclorito": []
+   },
+   "nota": "Me acosté 23:00 y me costó dormirme (~23:40); desperté varias veces en la noche. Piel muy bien salvo unas heridas, pero con más picazón. Sin hipoclorito (por flojo).",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve, clobetasol en la mañana y tacrolimus en la noche",
+    "hipoclorito": "No (por flojo)",
+    "sueno_texto": "La verdad dormí bien, pero si sentí que me costó un poco quedarme dormido, y me despertaba en la noche, cosa que no me paso los días anteriores. 7/10",
+    "piel_texto": "Mi piel la veo muchísimo mejor, ando con mas picazón eso si, pero la piel está muy bien excepto por un poquito de heridas 8,5/10",
+    "adicional": "Todo explicado"
+   },
+   "ts": 1792432800019
+  },
+  "2026-09-01": {
+   "picor": 3,
+   "piel": 9,
+   "sueno": 9,
+   "pantalla": "",
+   "acostado": "23:00",
+   "levantado": "06:45",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [
+     "N"
+    ],
+    "corticoide": [
+     "M"
+    ],
+    "hipoclorito": []
+   },
+   "nota": "Dormí bastante bien y me rasqué poco. Piel muy bien: nada de rojez y pocas costras.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "cera ve y clobetasol en la mañana y tacrolimus en la noche",
+    "hipoclorito": "No",
+    "sueno_texto": "Dormí bastante bien y me rasque poco 8.5/10",
+    "piel_texto": "Mi piel esta muy pero muy bien. Nada de rojez y tampoco muchas costras 9/10",
+    "adicional": "Todo explicado"
+   },
+   "ts": 1792432800020
+  },
+  "2026-09-02": {
+   "picor": 2,
+   "piel": 9,
+   "sueno": 9,
+   "pantalla": "",
+   "acostado": "22:45",
+   "levantado": "06:45",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [
+     "N"
+    ],
+    "corticoide": [
+     "M"
+    ],
+    "hipoclorito": [
+     "?"
+    ]
+   },
+   "nota": "Me dormí casi al tiro, poca picazón. Solo un poco rojo el brazo derecho. Hipoclorito con balde + toalla (salió 10 veces más concentrado, ver 7-sep). Último día de la fase 2.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve y clobetasol en la mañana y tacrolimus en la noche.",
+    "hipoclorito": "Si",
+    "metodo_hipoclorito": "Balde de 2 litros con toalla empapada que me la pasaba por las zonas que normalmente brotan. Lo encontré un método muy cómodo y sencillo. Y sentí que el hipoclorito quedó expandido en toda la zona, y al remojar constantemente la toalla no sentí que fuera malo el método, todo lo contrario.\n (Aca me confundí de cantidad y use una concentración 10 veces mayor. Se ve el 7 de septiembre explicado)",
+    "sueno_texto": "Dormí bastante bien, poca picazón y me costó casi nada quedar dormido. 9/10",
+    "piel_texto": "Mi piel está súper bien, un poco rojo el brazo derecho pero nada más. 8.5/10",
+    "adicional": "Hoy es el último día de la etapa 2. Mañana pasamos a la etapa 3, es decir sólo tacrolimus por 7 días."
+   },
+   "ts": 1792432800021
+  },
+  "2026-09-03": {
+   "picor": 6,
+   "piel": 8,
+   "sueno": 7,
+   "pantalla": "",
+   "acostado": "00:30",
+   "levantado": "06:45",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [
+     "M"
+    ],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Me acosté 00:30 y entre picazón dormité hasta ~02:30 viendo la hora; incómodo, sin destrozarme la piel. Fase 3: solo tacrolimus una vez al día.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve y tacrolimus en la mañana",
+    "hipoclorito": "No",
+    "sueno_texto": "Me acosté más o menos tarde, y cuando me fui a dormir me dio picazón y me costó dormir pero no sentí que me destroce la piel, solo fue incomodo. Y me acuerdo que semi dormía, tipo de la nada como que me racscaba y veía la hora y eran las 1 luego eran las 2, y luego las 2:30. Pero era como entreno dormir y dormir. Le doy un 7/10",
+    "piel_texto": "Mi piel no la veo mal a pesar de que me rasque anoche, así que le doy 8/10",
+    "adicional": "Primer día de la etapa 3, solo tacrolimus una vez al día."
+   },
+   "ts": 1792432800022
+  },
+  "2026-09-04": {
+   "picor": 3,
+   "piel": 8,
+   "sueno": 7,
+   "pantalla": "",
+   "acostado": "01:30",
+   "levantado": "06:45",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [
+     "M"
+    ],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Me acosté 01:30 por quedarme despierto (no por la alergia): dormí bien pero muy poco. De día me rasqué la parte de atrás de los brazos y las manos. Sueño estimado.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve y tacrolimus en la mañana",
+    "hipoclorito": "no",
+    "sueno_texto": "Dormí bastante bien, no me rasque mucho. Pero dormí súper poco (porque me quede despierto hasta tarde, no por la alergia)",
+    "piel_texto": "Mi piel la veo un poco peor en las zonas de el brazo por la parte de atrás, ya que durante el día me rasque bastante ahí, además de las manos también. Diría que nivel 7.5/10",
+    "adicional": "Todo explicado"
+   },
+   "ts": 1792432800023
+  },
+  "2026-09-05": {
+   "picor": 3,
+   "piel": 8,
+   "sueno": 9,
+   "pantalla": "",
+   "acostado": "01:00",
+   "levantado": "07:30",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [
+     "M"
+    ],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Me acosté 01:00 por terminar cosas: dormí poco pero bien. Piel mejor, aunque de día tuve más picazón y me rasqué harto las manos.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve y tacrolimus en la mañana",
+    "hipoclorito": "No",
+    "sueno_texto": "Dormí poco por terminar unas cosas en la noche, pero fuera de eso dormí bastante bien 8.5/10.",
+    "piel_texto": "La piel la veo mucho mejor, aunque hoy día anduve con más picazón y me rasque harto las manos, por lo cual nivel de alergia le doy un 8/10 pero con más picazón de lo que tenía antes.",
+    "adicional": "Todo explicado"
+   },
+   "ts": 1792432800024
+  },
+  "2026-09-06": {
+   "picor": 5,
+   "piel": 7,
+   "sueno": 8,
+   "pantalla": "",
+   "acostado": "23:30",
+   "levantado": "08:00",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [
+     "M"
+    ],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Dormí bastante bien, aunque me rasqué bastante en la noche; la piel amaneció más roja.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Tacrolimus en la mañana y cera ve",
+    "hipoclorito": "No",
+    "sueno_texto": "Dormí bastante bien aunque me rasque un poco bastante 8/10",
+    "piel_texto": "La piel la veo un poco peor ya que igual se nota más roja por la picazón en la noche. 7/10",
+    "adicional": "Todo explicado"
+   },
+   "ts": 1792432800025
+  },
+  "2026-09-07": {
+   "picor": 8,
+   "piel": 7,
+   "sueno": 7,
+   "pantalla": "",
+   "acostado": "23:00",
+   "levantado": "06:45",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [
+     "M"
+    ],
+    "corticoide": [],
+    "hipoclorito": [
+     "?"
+    ]
+   },
+   "nota": "Muy cansado, dormí bien, pero me rasqué muchísimo pese a limarme las uñas. Descubrí el error: mi cloro es al 4 % y calculaba para 0,4 % (dosis 10 veces mayor). Vitamina D semanal.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Tacrolimus en la mañana, cera ve, hipoclorito y pastilla de vitamina D dosis semanal.",
+    "hipoclorito": "Si (pero me di cuenta que todo este tiempo he calculado todo con la proporción incorrecta! Ya que el cálculo lo estaba haciendo para cloró al 0.4% cuando realmente mi cloro es al 4%. Por lo cual las veces anteriores las había medido con la concentración incorrecta)",
+    "metodo_hipoclorito": "Toalla empapada en un bade de dos litros",
+    "sueno_texto": "Dormí bien porqué estaba muy cansado, y me rasque mucho, pese a que como sentía picazón, intencionalmente me limé las uñas hasta más no poder, pero igualmente me rasque mucho. 7/10 para el sueño",
+    "piel_texto": "la piel está muy mal la verdad, hoy se ve como esta dañada, aunque no tanto a nivel de heridas ya que tengo las uñas muy cortas, pero si se nota que me rasque muchísimo en la noche ya que están muchas partes rojas y con la piel áspera. 6.5/10",
+    "adicional": "Eso más que nada."
+   },
+   "ts": 1792432800026
+  },
+  "2026-09-08": {
+   "picor": 4,
+   "piel": 5,
+   "sueno": 8,
+   "pantalla": "",
+   "acostado": "23:00",
+   "levantado": "06:45",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [
+     "M"
+    ],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Dormí bien y no me rasqué tanto, pero la piel se secó mucho en la noche. Muy irritada por el hipoclorito fuerte de ayer: en la espalda la crema me ardió muchísimo. Mucha Cera Ve.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Tacrolimus en la mañana, y muchísima pero muchísima cera ve.",
+    "hipoclorito": "No",
+    "sueno_texto": "Dormí bien, ya que igual estaba cansado, y no me rasque tanto, pero si siento muy mal la piel y que en la noche se secó bastante, debe ser por la condición con las proporciones del hipoclorito de ayer. Dormí 7.5/10",
+    "piel_texto": "La piel está muy mal, aunque no tengo cicatrices ni heridas profundas, tengo mucha área de la piel rojiza, e irritada, de hecho la espalda, en la cual tenía alergia pero no tanta, hoy día al echar crema ahí, me ardió demasiado, pero demasiado demasiado, cosa que se nota que esa zona sobre todo se irritó muchisimo. (evidentemente lo de ayer provoco harto está irritación) gran parte de la piel está muy seca, y hay más zonas comprometidos que antes. Nivel de alergia 5/10",
+    "adicional": "ayer me confundí de concentración en la mezcla de hipoclorito por una equivocación mía."
+   },
+   "ts": 1792432800027
+  },
+  "2026-09-09": {
+   "picor": 3,
+   "piel": 7,
+   "sueno": 8,
+   "pantalla": "",
+   "acostado": "23:45",
+   "levantado": "06:30",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [
+     "M"
+    ],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Dormí ~6–7 h, súper bien y sin rascarme tanto. Piel aún seca, irritada y roja, pero mucho mejor. Último día de la fase 3; mañana mantenimiento con tacrolimus.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Tacrolimus en la mañana, y cera ve",
+    "hipoclorito": "No",
+    "sueno_texto": "Dormí alrededor de 6-7 horas, pero dormí súper bien, no me rasque tanto. 8/10",
+    "piel_texto": "Mi piel sigue resecada, irritada y rojiza, pero la veo mucho mejor. 6.5/10",
+    "adicional": "Hoy fue el último día de la etapa 3, mañana paso a la 4 es decir mantenimiento con tacrolimus."
+   },
+   "ts": 1792432800028
+  },
+  "2026-09-10": {
+   "picor": 3,
+   "piel": 7,
+   "sueno": 9,
+   "pantalla": "",
+   "acostado": "00:30",
+   "levantado": "06:30",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Dormí bien pero poco (~6 h). La piel sigue irritada y con algo de picazón, sobre todo en la espalda, aunque mejor.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve",
+    "hipoclorito": "No",
+    "sueno_texto": "Dormí bien pero dormí poco, cerca de 6h nivel 8.5/10",
+    "piel_texto": "La piel sigue bien irritada y con un poco de picazón, sobre todo en la espalda, aunque igual la noto mejor. Nivel 7/10",
+    "adicional": "Todo explicado"
+   },
+   "ts": 1792432800029
+  },
+  "2026-09-11": {
+   "picor": 1,
+   "piel": 8,
+   "sueno": 9,
+   "pantalla": "",
+   "acostado": "01:30",
+   "levantado": "06:30",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Me acosté 01:30 editando un video (~5 h) y casi no me rasqué. Piel mucho mejor pese a dormir poco: ¿el hipoclorito fuerte o el corticoide postergó el brote? Olvidé las fotos.",
+   "fotos": false,
+   "legacy": {
+    "tratamiento": "Cera ve",
+    "hipoclorito": "No",
+    "sueno_texto": "Hoy dormí como 5 horas porque me quede editando un video en la noche, pero dormí súper bien en lo poco que dormí, no me rasque casi nada. Nivel 9/10",
+    "piel_texto": "La piel la note mucho mejor, la irritación se fue por completo, y la piel la siento mejor 8/10",
+    "adicional": "Algo loco es que la piel la he notado mucho mejor, y eso es que he dormido muy poco últimamente porque he estado igual con hartas cosas. Y para que esté mejor con esto, le veo dos posibilidades, una fue el hipoclorito con 10x en la dosis (que de hecho la piel la noto súper bien para lo alta que fue la dosis). o la otra opción puede ser que el tratamiento de el corticoide halla postergado el brote. \n así que hoy y los próximos días son una pieza fundamental para entender cómo funciona todo esto. (Detalle técnico: hoy día se me olvidó sacar fotos)"
+   },
+   "ts": 1792432800030
+  },
+  "2026-09-12": {
+   "picor": 0,
+   "piel": 9,
+   "sueno": 10,
+   "pantalla": "",
+   "acostado": "23:00",
+   "levantado": "10:00",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Sábado: dormí ~11 h, súper bien y sin rascarme nada. La alergia bajó muchísimo entre ayer y hoy.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve",
+    "hipoclorito": "No",
+    "sueno_texto": "Hoy dormí súper bien, y puede dormir 11h porque era sábado, asi que súper súper bien, y no me rasue nada. nivel 10/10",
+    "piel_texto": "La piel la note espectacular, mi alergia bajo muchísimo, entre ayer y hoy bajo mucho mucho 8.5/10",
+    "adicional": "Todo explicado."
+   },
+   "ts": 1792432800031
+  },
+  "2026-09-13": {
+   "picor": 7,
+   "piel": 7,
+   "sueno": 7,
+   "pantalla": "",
+   "acostado": "02:15",
+   "levantado": "11:15",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [
+     "M"
+    ],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Volví ~02:00 de un matrimonio (pasto, camisa no de algodón) con picazón en brazos y cuello; ~9 h, me moví caleta y me rasqué. ¿Faltó hipoclorito o fue algo del matrimonio?",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve y tacrolimus en la mañana",
+    "hipoclorito": "No",
+    "sueno_texto": "Hoy día la verdad dormí mas o menos. Me moví caleta, y me rasque bastante. \n adormí cerca de 9 horas. Nivel 7/10",
+    "piel_texto": "La piel igual la note un poco gastada porque se notó que ayer me rasque en la noche. 7/10",
+    "adicional": "Algo que me da curiosidad es el porque hoy día me rasque cuando ayer dormi tan bien y con tan poco rascado. Veo dos opciones: 1. Falta hipoclorito, porque la última dosis fue hace mucho, lo que volvió a brotar. \n 2. Un factor externo de ayer impulsó un brote, por eso el cambio tan brusco. \n (Este día también puede ser clave para entender mi alergia) sólo para complementar el n2, y ver si ayer ocurrió específicamente algo, te digo específicamente que paso ayer: ayer estuve en un matrimonio, donde igual fue relajado, no hubo tanta fiesta y asi, fue un matrimonio mas tranquilo. El lugar tenía harto pasto, queda en las afueras de Santiago. Ahí comí de todo (o obviamente nada que me me pueda causar una anafilaxia) ese día vestí con camisa (no es algodón) y llegue mas o menos tarde a la casa (tipo 2am) y cuando venia llegando, me empezó a picar harto los brazos y el cuello. Luego me dormí y sentí que igual me rasque en la noche."
+   },
+   "ts": 1792432800032
+  },
+  "2026-09-14": {
+   "picor": 4,
+   "piel": 9,
+   "sueno": 8,
+   "pantalla": "",
+   "acostado": "23:30",
+   "levantado": "08:30",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [
+     "M"
+    ],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Dormí ~9 h de buena calidad; me moví bastante pero no me rasqué tanto. Cicatrizó bastante. Última dosis de vitamina D 50.000 UI. Mini vacaciones hasta el lunes 21. Cera Ve + Aquafort.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve, aquafort, tacrolimus en la mañana, y ultima dosis vitamina D de 50.000 UI semanales.",
+    "hipoclorito": "No",
+    "sueno_texto": "Hoy dormí súper bien en calidad, me moví bastante pero dormí bien. Cerca de 9h. Ni me rasque tanto. 8/10",
+    "piel_texto": "La piel la veo mejor, cicatrizo bastante en la noche. 8.5/10",
+    "adicional": "Algo importante que decir es que desde hoy al próximo lunes tengo unas mini vacaciones por la semana del 18 de septiembre. Así que podré dormir más y probablemente tenga unas poquito menos de estrés."
+   },
+   "ts": 1792432800033
+  },
+  "2026-09-15": {
+   "picor": 3,
+   "piel": 8,
+   "sueno": 8,
+   "pantalla": "",
+   "acostado": "00:00",
+   "levantado": "07:00",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Dormí ~7 h súper bien: me rasqué muy poco pero me moví harto. Todo el día al sol construyendo con amigos (gorro y bloqueador sin perfume): piel irritada, seca y con eccema nuevo.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve, mucho bloqueador y aquafort",
+    "hipoclorito": "no",
+    "sueno_texto": "Hoy dormi súper bien, en cuanto a rascarme, me saque muy poco, pero me moví harto para dormir, dormi cerca de 7h. nivel: 8/10",
+    "piel_texto": "La piel está súper bien, pero por el sol, se ve irritada y seca y con un poco de eccema nuevo recién saliendo. Nivel: 7.5/10",
+    "adicional": "Hoy día estuve ayudando a unos amigos a construir en su terreno, estuve todo el día al sol (con gorro y bloqueador libre de perfumes) pero a pleno sol. Esto puede que influya en mi piel bastante."
+   },
+   "ts": 1792432800034
+  },
+  "2026-09-16": {
+   "picor": 4,
+   "piel": 7,
+   "sueno": 8,
+   "pantalla": "",
+   "acostado": "23:30",
+   "levantado": "07:30",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Dormí ~8 h; me moví mucho pero no me rasqué tanto. Piel muy reseca, más irritación que eccema profundo. Olvidé las fotos.",
+   "fotos": false,
+   "legacy": {
+    "tratamiento": "cera ve",
+    "hipoclorito": "No",
+    "sueno_texto": "Dormi como 8h y me moví mucho, pero no me rasque tanto. nivel:7.5/10",
+    "piel_texto": "La piel se ve bastante resecada, pero no pero el eccema es poco profundo, más es la irritación. Nivel: 7/10",
+    "adicional": "Se me olvidó sacar foto de mi alergia hoy…"
+   },
+   "ts": 1792432800035
+  },
+  "2026-09-17": {
+   "picor": 4,
+   "piel": 6,
+   "sueno": 7,
+   "pantalla": "",
+   "acostado": "01:00",
+   "levantado": "07:00",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Me acosté 01:00 por terminar pendientes (~6 h); me moví bastante y desperté muy cansado. Otro día al sol construyendo: transpiré harto y la piel quedó irritada y roja.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve y bloqueador",
+    "hipoclorito": "No",
+    "sueno_texto": "Hoy dormi como 6h por terminar cosas pendientes y no me rasque tanto pero si me moví bastante en la noche. Desperté muy cansado. Nivel: 7/10",
+    "piel_texto": "La piel se ve muy irritada, en parte el sol hizo que mucha de la zona de la piel esté irritada y rojiza, más de lo que estaba. Nivel: 6/10",
+    "adicional": "Hoy también estuve ayudando a unos amigos a construir en su terreno. Había bastante sol, y transpire harto. Esto si me irrito y reseco harto la piel."
+   },
+   "ts": 1792432800036
+  },
+  "2026-09-18": {
+   "picor": 4,
+   "piel": 7,
+   "sueno": 8,
+   "pantalla": "",
+   "acostado": "00:00",
+   "levantado": "08:00",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [
+     "N"
+    ],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Me acosté 00:00 y dormité a medias hasta ~02:30; después dormí bien (~7 h en total). Piel algo mejor que ayer. 18 de septiembre con la familia: algo de licor (con cautela) y mucha comida.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve, y tacrolimus en la noche",
+    "hipoclorito": "No",
+    "sueno_texto": "Hoy dormi cerca de 7h y dormi bien pero a la vez sentí que en las primeras 3 horas de sueño dormí a medias, semi dormitando, ya que me acuerdo de estar así y ver la hora y habían pasado un par de horas donde entre que dormía y no dormía (era como estar intentando dormir pero con la conciencia apagada) una cuestión muy rara. El tema es que no me desperté tan cansado así que supongo que si dormi bien. Nivel 7.5/10",
+    "piel_texto": "La el se ve irritada, y rojiza pero se ve un poco mejor que ayer. Se nota que en la noche cicatrizó algo. Nivel 6.5/10",
+    "adicional": "Hoy fue 18 de septiembre y lo estuve celebrando con mi familia. Tome un poco de licor (con cautela) y comí muchisimo (obviamente no cosas que me manden a la tumba como maní o nueces)"
+   },
+   "ts": 1792432800037
+  },
+  "2026-09-19": {
+   "picor": 8,
+   "piel": 5,
+   "sueno": 7,
+   "pantalla": "",
+   "acostado": "01:00",
+   "levantado": "10:00",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Dormí profundo ~8–9 h, pero me rasqué mucho. La crema me ardió y sentía el cuello caliente. Desde esta noche uso el reloj que mide sueño, presión y más. Cera Ve + Aquafort.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve y aquafort",
+    "hipoclorito": "No",
+    "sueno_texto": "Hoy dormí súper bien, como 8-9h, pero me rasque mucho. En la mañana pensé que no me había rascado mucho (porque dormi súper profundo) pero al ver mi alergia caché que si me rasque bastante. Nivel: 6.5/10",
+    "piel_texto": "Hoy sentí la piel mucho más maltratada, cosa de que cuando me eché crema me ardió muchisimo, y sentía la piel muy caliente (sobre todo en el cuello). Nivel: 5/10",
+    "adicional": "Desde hoy en la noche empecé a usar reloj que mide mi salud, sueño, presión arterial, todo. Y con más data, mas preciso será todo."
+   },
+   "ts": 1792432800038
+  },
+  "2026-09-20": {
+   "picor": 4,
+   "piel": 7,
+   "sueno": 8,
+   "pantalla": "",
+   "acostado": "00:05",
+   "levantado": "11:35",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Me acosté 00:05 y me dormí 00:18 (reloj); dormí hasta 11:31, súper bien y sin rascarme tanto. La piel no está tan roja ni caliente como ayer, pero sigue bastante mal.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve",
+    "hipoclorito": "No",
+    "sueno_texto": "Hoy dormi caleta y súper bien, no me rasque tanto. Nivel 8/10",
+    "piel_texto": "Hoy la piel la sentí un poco mejor, de hecho no esta tan roja y no sentí el calor en la piel que sentía ayer. Pero a la vez igual sigue bastante mal. Nivel: 6.5/10",
+    "adicional": "Todo explicado",
+    "reloj": "Huawei Health: dormido 00:18 → despierto 11:31 · 10 h 59 min de sueño (profundo 151, ligero 355, REM 153 min) · 3 despertares · ~14 min despierto en la noche · puntaje 78."
+   },
+   "ts": 1792432800039
+  },
+  "2026-09-21": {
+   "picor": 2,
+   "piel": 8,
+   "sueno": 8,
+   "pantalla": "",
+   "acostado": "23:10",
+   "levantado": "06:05",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": [
+     "?"
+    ]
+   },
+   "nota": "Me acosté 23:10 y me dormí 23:23 (reloj); 6 h 12 min, casi sin rascarme. Piel mucho mejor; hoy hipoclorito con toalla. Terminé la vitamina D de 2 meses: toca hacerme exámenes.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "cera ve y hipoclorito",
+    "hipoclorito": "si",
+    "metodo_hipoclorito": "Toalla chica empapada y pasada hartas veces por la piel con 2 litros de concentración.",
+    "sueno_texto": "Hoy dormí poquito, pero dormi súper bien. No me rasque casi nada en la noche. Nivel 8/10",
+    "piel_texto": "Hoy la piel la veo muchisimo mejor, se mejoró súper rápido y me imagino que se seguirá mejorando gracias al hipoclorito de hoy (me puse las pilas)\n El nivel de alergia de hoy: 7.5/10",
+    "adicional": "como es lunes supuestamente debería tocar vitamina D, pero ya se terminaron los 2 meses de la dosis de 50.000 UI, así que ahora me toca hacerme los exámenes.",
+    "reloj": "Huawei Health: dormido 23:23 → despierto 06:00 · 6 h 12 min de sueño (profundo 135, ligero 166, REM 71 min) · 3 despertares · ~25 min despierto en la noche · puntaje 82."
+   },
+   "ts": 1792432800040
+  },
+  "2026-09-22": {
+   "picor": 2,
+   "piel": 7,
+   "sueno": 9,
+   "pantalla": "",
+   "acostado": "22:50",
+   "levantado": "06:55",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [
+     "N"
+    ],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Me acosté 22:50 y me dormí 23:04 (reloj): 7 h 25 min muy buenos, casi sin rascarme; me costó despertar. Algo de picazón de día. Crema La Roche-Posay Lipikar (no tenía Cera Ve).",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Crema la ronche posay lipikar(porque no tenia a mano la cera ve) y tacrolimus en la noche",
+    "hipoclorito": "No",
+    "sueno_texto": "Hoy dormi muy pero muy bien, aunque me costo un poco despertarme. Me rasque casi nada en la noche. Nivel: 8.5/10",
+    "piel_texto": "Hoy la piel la veo mejor, aunque igual hoy tuve un poco de picazón, pero la piel si la veo mejor. Nivel: 7/10",
+    "adicional": "Todo explicado.",
+    "reloj": "Huawei Health: dormido 23:04 → despierto 06:50 · 7 h 25 min de sueño (profundo 109, ligero 262, REM 74 min) · 2 despertares · ~21 min despierto en la noche · puntaje 82."
+   },
+   "ts": 1792432800041
+  },
+  "2026-09-23": {
+   "picor": 9,
+   "piel": 5,
+   "sueno": 2,
+   "pantalla": "",
+   "acostado": "22:00",
+   "levantado": "06:55",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Me acosté 22:00 y no me dormí hasta 02:37 (reloj): picazón en todo el cuerpo, vueltas, elongar y respirar no sirvió. Dormí 3 h 55. Dolor de cabeza y me fue muy mal en la prueba de límites.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Crema la roche posay lipikar (tampoco tenia la cera ve a mano)",
+    "hipoclorito": "no",
+    "sueno_texto": "Hoy dormí horrible, y lo que mas me impresiona es que los últimos días dormi súper bien, pero hoy nada que ver. Me fui a intentar dormir a las 10pm y terminé durmiendo a las 2:30 pm segun mi reloj. Me acuerdo que me picaba muchisimo el cuerpo, y yo para no rascarme tanto (aunque igual me rasque caleta anoche) me daba vueltas y vueltas en la cama. Cada vez que miraba la hora, de me hacía más y más tarde y no podía conciliar el sueño. Me tuve que levantar a Elongar y respirar profundo, y ni siquiera con eso logré dormir. Después me quede acostado intentando quedar dormido entre que me rascaba de vez en cuando. La última vez que me acuerdo de ver la hora eran las 1 y tanto. Entre esa y la hora que dice el reloj que me quede dormido, debo haber estado intentando dormir con la conciencia semi prendida y semi apagada.\n hoy día estube con harto dolor de cabeza y muy agotado. Hoy día tuve una prueba de límites y derivadas y me fue muy pero muy mal, ya que frente al ejercicio pese a que la materia la manejaba excelente, mi mente no me respondía para razonar. Así que en resumen dormi súper mega mal, rendí súper poco en el día, y me sorprende mucho que hace unos días halla dormido tan bien y esta noche haber dormido tan mal. Nivel: 2/10",
+    "piel_texto": "la piel se nota que esta más rota. De hecho en la mañana cuando me desperté, me eché crema y me ardió caleta, sobre todo el cuello. Pero para lo tan mal que dormí, viendo las fotos, tampoco está tan deplorable comparado con lo mal que dormí. Nivel: 4.5/10",
+    "adicional": "Sobre que cosa pudo haber ovacionando el dormir tan mal, voy a detallar que fue lo que hice ayer 22 de septiembre: \n Ayer me desperté un poco cansado, desayuné huevo, pan y un plato abundante de leche con avena y me fui a mi colegio que queda en el olivar como todos los días de la semana (sobre esto, todo normal la verdad), almorcé porotos con rienda en el colegio. Despues del colegio pase a visitar a un amigo que estaba trabajando en un torneo de tenis, ahí estube como 1h, luego de eso fui a mi casa, almorcé nuevamente pero esta vez arroz con acarne mechada. Estudie IA un rato, y luego vi una película con mi mamá y mi hermana mientras comíamos galletas de agua con queso crema y salsa de soya. Terminando la peli prepare mis cosas para dormir, me eche crema tacrolimus, y 25 minutos más tarde me eche crema la roche poseay. Luego leí un rato, y me acosté, ya cuando me había acostado, me empecé a rascar un poco el cuello, mis un par de vueltas en la cama intentando dormir, y luego ya cada vez me picaba más y más partes del cuerpo y ahí estube hasta la madrugada que me pude quedar dormido.\n Literalmente el día mas normal que pueda existir. Y me da mucha curiosidad el porqué sucedió esto tan repentinamente, así que hay harto material para ver si esto tiene una razón.",
+    "reloj": "Huawei Health: dormido 02:37 → despierto 06:50 · 3 h 55 min de sueño (profundo 91, ligero 84, REM 60 min) · 2 despertares · ~18 min despierto en la noche · puntaje 72 · siesta de 1 h 04 min ese día."
+   },
+   "ts": 1792432800042
+  },
+  "2026-09-24": {
+   "picor": 8,
+   "piel": 6,
+   "sueno": 5,
+   "pantalla": "",
+   "acostado": "18:00",
+   "levantado": "06:05",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Me acosté 18:00; el reloj marca 20:32 pero creo que me dormí antes. Entre 01:00 y 03:00 desperté rascándome el cuello (~1,5 h despierto). Amanecí descansado. Lipikar + Aquafort.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Crema la roche posay lipikar y aquafort",
+    "hipoclorito": "No",
+    "sueno_texto": "Esta noche dormi Masomenos pero harto. Me acosté cerca de las 6pm, aunque el reloj marcó que me quede dormido a las 8 (pero en realidad me había quedado dormido mucho antes). La verdad igual dormi bien en cuanto a calidad, solo que me rasque harto igual. A las 1 am Masomenos me acuerdo de mirar el reloj y haber estado un poco más entre dormido y despierto, y luego a eso de las 1-3 am me acuerdo de que estuve despierto caleta de esto intentando dormir, ya que me acuerdo de que en una me empeze a rascar muchisimo el cuello, pero muchisimo, y me desperté rascándome y me ardía todo el cuello de picor, y ahí luche con no rascarme por harto tiempo (lo cual el reloj muestra que estuve como 1.5h despierto en medio de la noche) y despues ya me pude quedar dormido. Lo bueno es que al despertarme me sentí súper descansado, con muy poco sueño y casi totalmente recuperado de ayer. Nivel: 5/10",
+    "piel_texto": "La piel igual se nota bastante rota, aunque para lo mucho que me rasque ayer y esta noche, sería que está súper bien, pero viéndola, me doy cuenta de que si está muy rota y con varios puntos nuevos de alergia. Así que le doy 5.5/10",
+    "reloj": "Huawei Health: dormido 20:32 → despierto 06:00 · 7 h 25 min de sueño (profundo 116, ligero 224, REM 105 min) · 7 despertares · ~123 min despierto en la noche · puntaje 89."
+   },
+   "ts": 1792432800043
+  },
+  "2026-09-25": {
+   "picor": 5,
+   "piel": 7,
+   "sueno": 6,
+   "pantalla": "",
+   "acostado": "23:45",
+   "levantado": "06:55",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [
+     "?"
+    ],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Me acosté 23:45; el reloj marca dormido 00:35, solo 4 h 44 de sueño y ~1 h despierto que no recuerdo (¿sueño muy movido?). Me rasqué, pero no tanto. Aquafort + Lipikar.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Crema aquí fort, la roche posay y tacrolimus",
+    "hipoclorito": "no",
+    "sueno_texto": "Ea noche igual me rasque, pero no tanto tanto. Algo importante que decir, es que mi reloj marco que dormi 4.44h (y dice que me acoste despues de lo que realmente fue) y que estuve 1h despierto Ema madrugada. Y la verdad no me acuerdo de estar despierto en la noche, entonces capaz que tuve un sueño muy malo (y el reloj pensó que n estaba durmiendo porque me moví mucho o así) o fui sonámbulo 💀.\n Nivel: 6/10",
+    "piel_texto": "La piel la noto mejor y no tan roja pero con mucha área afectada, notablemente por lo ultimo ue ha pasado. Nivel: 6.5/10",
+    "adicional": "solo que el reloj marca que dormi muy poco y que estibe despierto 1h en la noche cosa que no se que tan así halla sido.",
+    "reloj": "Huawei Health: dormido 00:35 → despierto 06:49 · 4 h 44 min de sueño (profundo 76, ligero 151, REM 57 min) · 3 despertares · ~90 min despierto en la noche · puntaje 74."
+   },
+   "ts": 1792432800044
+  },
+  "2026-09-26": {
+   "picor": 2,
+   "piel": 7,
+   "sueno": 8,
+   "pantalla": "",
+   "acostado": "01:40",
+   "levantado": "11:15",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": [
+     "N"
+    ]
+   },
+   "nota": "Me acosté 01:40 y me dormí 02:00 (reloj); 8 h 41 min súper bien, me rasqué muy poco. Las costras cicatrizan bien (puntaje de piel estimado). Fotos tras el hipoclorito de la noche.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Crema la roche posay y cera ve",
+    "hipoclorito": "Si",
+    "metodo_hipoclorito": "Toalla remojada en balde de 2 litros.",
+    "sueno_texto": "Dormi súper bien, y me rasque muy poco. Nivel: 8/10",
+    "piel_texto": "La alergia la veo mejor, veo que se está mejorando. Y las costras de piel Mal maltratada se van cicatrizando súper bien.",
+    "adicional": "Las fotos de la alergia me las saque después de el hipoclorito en la noche.",
+    "reloj": "Huawei Health: dormido 02:00 → despierto 11:09 · 8 h 41 min de sueño (profundo 119, ligero 351, REM 51 min) · 3 despertares · ~28 min despierto en la noche · puntaje 82."
+   },
+   "ts": 1792432800045
+  },
+  "2026-09-27": {
+   "picor": 8,
+   "piel": 5,
+   "sueno": 6,
+   "pantalla": "",
+   "acostado": "04:10",
+   "levantado": "11:10",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Me acosté tarde (04:10) y me dormí al tiro (04:25 reloj), pero me rasqué caleta y desarmé la cama. De día también: brazos rojos y con más área afectada.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Crema cera ve",
+    "hipoclorito": "No",
+    "sueno_texto": "hoy me acosté medio tarde, pero la verdad dormi súper bien en cuanto a sueño, ya que no me costó dormir, pero l despertarme me di cuenta que me había rascado caleta y que había desarmado muchísimo mo la cama, por lo que me moví mucho. Además la piel en la mañana la sentía como si me hubiera rascado harto en la noche. Nivel: 6/10",
+    "piel_texto": "La alergia la veo bastante mal la verdad, porque hoy día me rasque caleta tanto en la noche como también en el día. Hoy anduve con mucha picazón. Y a casi todas horas me estaba rascando, sobre todo en los brazos. Y hoy están mas rojos y con notablemente mas área afectada. Nivel: 5/10",
+    "adicional": "Todo explicado.",
+    "reloj": "Huawei Health: dormido 04:25 → despierto 11:05 · 6 h 20 min de sueño (profundo 101, ligero 178, REM 101 min) · 2 despertares · ~20 min despierto en la noche · puntaje 78."
+   },
+   "ts": 1792432800046
+  },
+  "2026-09-28": {
+   "picor": 4,
+   "piel": 6,
+   "sueno": 7,
+   "pantalla": "",
+   "acostado": "00:55",
+   "levantado": "07:05",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [
+     "N"
+    ],
+    "corticoide": [],
+    "hipoclorito": [
+     "N"
+    ]
+   },
+   "nota": "Me acosté 00:55 y me dormí 01:13 (reloj): poco (5 h), pero bien. Piel cicatrizando y menos roja. Justo después del hipoclorito me dio una picazón tremenda en el cuello.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Crema cera ve, tacrolimus en la noche, e hipoclorito",
+    "hipoclorito": "Si",
+    "metodo_hipoclorito": "Balde de 2 litros y toalla pequeña",
+    "sueno_texto": "Dormi super bien, pero dormi poquito. Me rasque pero no tanto. Nivel: 7/10",
+    "piel_texto": "La alergia la veo mejor. Dentro de todo se ha podido cicatrizar. Y no está tan tan roja como antes. Nivel: 6/10",
+    "adicional": "Lo único que puedo añadir es que hoy después de el hipoclorito en la noche, me dio una cazón tremenda en el cuello, y no me podía parar de rascar, hasta que luego seso un poco, me eche harta crema y se me paso un poco. Pero igual me dio curiosidad que Justo despues del hipoclorito me empezó a picar tanto tanto.",
+    "reloj": "Huawei Health: dormido 01:13 → despierto 07:02 · 5 h 03 min de sueño (profundo 75, ligero 147, REM 81 min) · 3 despertares · ~46 min despierto en la noche · puntaje 71."
+   },
+   "ts": 1792432800047
+  },
+  "2026-09-29": {
+   "picor": 7,
+   "piel": 6,
+   "sueno": 3,
+   "pantalla": "",
+   "acostado": "00:00",
+   "levantado": "06:35",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Me acosté 00:00 y me dormí 01:09 (reloj): 3 h 43 y ~1 h despierto. La picazón no me dejó dormir. Varios días durmiendo poco y mal: ¿qué medidas tomar para dormir mejor?",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Crea ve",
+    "hipoclorito": "No",
+    "sueno_texto": "Dormi pa la caca, a pesar de el cansancio acomunado no pude dormir bien, me rasque harto y tuve harto picazón nocturno que no me dejó dormir. (No me rasque tanto tampoco, pero el picazón es el que no me dejaba dormir) Nivel: 3/10",
+    "piel_texto": "Hoy la alergia la veo anti contradictoriamente, mejor. Increíblemente pese a dormir tan m, la piel la veo un poco mejor que los días anteriores. Excepto las manos que las tengo muy rojas y rascadas. Nivel: 6/10",
+    "adicional": "Algo importante que decir: hoy día me acoste a las 12 de la noche y estuve rascándome e inttando dormir, pero según mi percepción no fue tanto c o el reloj dice. mi reloj marca que me dormi mucho despues de las 1, y además dice que en la noche estuve casi 1h despierto.\n Y yo lo me acuerdo de haber estado despierto, entonces puede que en ese lapso me halla movido mucho y por eso detecto que estuve despierto. Pero igualmente eso significa que dormí muy mal. \n Entonces la verdad dormi bastante mal y me rasque harto. Lo que me preocupa es que el 23 de septiembre dormi súper mal, y al otro día andaba como muerto. Y en estos últimos días he dormido poco y mal varios días seguidos. Y no me siento tan molido como el 23 de septiembre, pero igualmente me siento bastante cansado y con dolor un poco de dolor de cabeza. El tema es:\n Si ya me estoy acostado tarde, y con lo poco que duermo, lo duermo mal, y ni siquiera con lo que estoy cansado (por dormir poco) puedo dormir bien al otro día, que cosa me garantiza el poder dormir bien? que medidas pedo tomar para dormir mejor?",
+    "reloj": "Huawei Health: dormido 01:09 → despierto 06:30 · 3 h 43 min de sueño (profundo 54, ligero 149, REM 20 min) · 4 despertares · ~98 min despierto en la noche · puntaje 62."
+   },
+   "ts": 1792432800048
+  },
+  "2026-09-30": {
+   "picor": 3,
+   "piel": 7,
+   "sueno": 6,
+   "pantalla": "",
+   "acostado": "22:40",
+   "levantado": "06:40",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Me acosté 22:40 y me dormí 22:51 (reloj); 6 h 41 y me rasqué poco, aunque el reloj marca ~1 h despierto. Manos recuperándose; el cuello no está tan mal.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "cera ve",
+    "hipoclorito": "No",
+    "sueno_texto": "No dormi tanto tanto, pero dormi súper bien según lo que yo sentí, y me rasque poco. Nivel: 6/10",
+    "piel_texto": "La alergia la veo un poco mejor, y menos rojiza. Me estoy recuperando de las manos y el cuello no está tan mal, asi que diria que mucho mejor. nivel: 6.5/10",
+    "adicional": "Todo explicado.",
+    "reloj": "Huawei Health: dormido 22:51 → despierto 06:34 · 6 h 41 min de sueño (profundo 58, ligero 270, REM 73 min) · 3 despertares · ~62 min despierto en la noche · puntaje 75."
+   },
+   "ts": 1792432800049
+  },
+  "2026-10-01": {
+   "picor": 8,
+   "piel": 6,
+   "sueno": 5,
+   "pantalla": "",
+   "acostado": "00:30",
+   "levantado": "13:50",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [
+     "?"
+    ],
+    "corticoide": [],
+    "hipoclorito": [
+     "?"
+    ]
+   },
+   "nota": "Me acosté 00:30 y me dormí 01:42 (reloj); desperté varias veces y me rasqué mucho pese a limarme las uñas. Me levanté 13:50. Donde no me rasco, la piel va mejorando.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve, tarolimus e hipoclorito",
+    "hipoclorito": "Si",
+    "metodo_hipoclorito": "Balde de 2 litros y toalla pequeña",
+    "sueno_texto": "Dormi caleta, y me levante tarde, pero me fui a dormir a las 12:30 y me terminé durmiendo cerca de las 1. Y también estuve despierto entremedió, por lo que me rasque mucho, aunque Justo esa noche me lime las uñas muchisimo para que no me rasque tan fuerte, pero igualmente me dañe harto la piel. Nivel: 5/10.",
+    "piel_texto": "La alergia la veo un poco peor por la rascada de anoche, pero a la la vez, en los adiós que no me rasque se me está mejorando. Nivel: 6/10",
+    "adicional": "Todo explicado.",
+    "reloj": "Huawei Health: dormido 01:42 → despierto 13:46 · 10 h 32 min de sueño (profundo 104, ligero 378, REM 150 min) · 6 despertares · ~92 min despierto en la noche · puntaje 74."
+   },
+   "ts": 1792432800050
+  },
+  "2026-10-02": {
+   "picor": 5,
+   "piel": 7,
+   "sueno": 4,
+   "pantalla": "",
+   "acostado": "00:00",
+   "levantado": "07:10",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Me acosté 00:00 y me dormí 03:08 (reloj): sin sueño y con picor, pero respirar me alivió y me aguanté sin rascarme. Solo me rasqué un poco el brazo derecho.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve",
+    "hipoclorito": "no",
+    "sueno_texto": "Dormí muy mal en cuanto sueño pero me rasque super poco. Me fui a acostar a las 12, me demoré demasiado en dormir. La verdad no tenia tanto picor, y antes de dormir estuve unos minutos respirando, y no se cómo pero me alivio la picazón. Y además que me contuve para no rascarme, y así el ciclo picor rascado no se dio. Entonces esta noche me rasque muy poco, casi nada. Pero el sueño fue muy malo, ya que pese a no rascarme, igual me picaba y yo me aguantaba el rascarme. Además tampoco tenía mucho sueño, y ya cerca de las 3 am pude quedarme dormido. Nivel: 4/10",
+    "piel_texto": "La alergia la veo mucho mejor. El único lugar que me rasque fue el brazo derecho un poco y nada mas. así que le doy un nivel 7/10",
+    "adicional": "todo explicado.",
+    "reloj": "Huawei Health: dormido 03:08 → despierto 07:04 · 3 h 49 min de sueño (profundo 70, ligero 118, REM 41 min) · ~7 min despierto en la noche · puntaje 64."
+   },
+   "ts": 1792432800051
+  },
+  "2026-10-03": {
+   "picor": 6,
+   "piel": 6,
+   "sueno": 7,
+   "pantalla": "",
+   "acostado": "02:20",
+   "levantado": "10:45",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [
+     "?"
+    ],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Un amigo en casa: me acosté 02:20 y me dormí 02:48 (reloj), muy cansado. Me rasqué harto el brazo derecho. Tacrolimus justo después de la crema (puede rendir menos). Piel estimada.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve y tacrolimus",
+    "hipoclorito": "No",
+    "sueno_texto": "Hoy estaba con un amigo en mi casa, asi que me acoste tarde, y me fui a dormir como a las 2:20 de la mañana, y me rasque harto el brazo derecho, pero estaba muy cansado y me quede dormido rápido. Nivel: 7/10",
+    "piel_texto": "Veo mejor mi piel, excepto el brazo derecho. tengo hatajo zona bastante roja, pero no esta tan mal en cuanto a profundidad de las heridas",
+    "adicional": "Hoy el tacrolimus me lo eche unos minutos despues de echarme crema, asi que puede que no me haga tanto efecto.",
+    "reloj": "Huawei Health: dormido 02:48 → despierto 10:41 · 7 h 25 min de sueño (profundo 128, ligero 257, REM 60 min) · 2 despertares · ~28 min despierto en la noche · puntaje 82."
+   },
+   "ts": 1792432800052
+  },
+  "2026-10-04": {
+   "picor": 6,
+   "piel": 5,
+   "sueno": 7,
+   "pantalla": "",
+   "acostado": "01:00",
+   "levantado": "12:20",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Me acosté 01:00; hasta 02:00 y tanto no pude dormir, me levanté a leer y volví ~03:00. Me dormí rápido y me levanté 12:20. Se me salió el reloj. Brazos muy alergizados.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve",
+    "hipoclorito": "No",
+    "sueno_texto": "Dormi bien dentro de todo, me costo un poco pero cuando me quede dormido, dormi sin despertarme tanto entremedio\n Aunque igual me rasque bastante en la noche, así que le doy un 6.5/10",
+    "piel_texto": "Hoy la alergia la veo mejor en el cuerpo en general, pero los brazos los tengo muy alergizados, sobre todo el derecho. Así que le doy un 5/10",
+    "adicional": "Hoy día se me salió el reloj mientras dormía. Me fui a acostar a las 1am, estuve intentando dormir hasta las 2 y algo, y luego me levante y me puse a leer, luego me volví a la cama a intentar dormir cerca de las 3. Y de ahí me quede dormido rapido. Pero como se me salió el reloj, tomo como si hubiera dormido siesta. Me levante a las 12:20 para que te hagas una idea de cuánto dormi.",
+    "reloj": "Huawei Health: sin noche completa (el reloj lo registró como siestas 03:04–03:56 + 04:04–05:42, 2 h 30 min en total)."
+   },
+   "ts": 1792432800053
+  },
+  "2026-10-05": {
+   "picor": 3,
+   "piel": 7,
+   "sueno": 5,
+   "pantalla": "",
+   "acostado": "00:00",
+   "levantado": "06:50",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Leí 40 min y me acosté 00:00 (dormido 00:05, reloj). Sentí que dormí bien, pero el reloj marca ~2 h 40 despierto en la noche que no recuerdo. Heridas más superficiales.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cara ve",
+    "hipoclorito": "No",
+    "sueno_texto": "Según mi percepción dormi bien, pero según mi reloj dormi muy mal, y estuve mucho despierto entremedio. Nivel: 4.5/10",
+    "piel_texto": "La alergia la veo mejor y se nota que se está cicatrizando rápidamente , las heridas se ven más superficiales. Nivel: 6.5/10",
+    "adicional": "Hoy para poder dormir mejor, estuve leyendo 40 min antes de dormirme. Me fui a dormir a las 12 de la noche, y hasta ahí todo bien. \n El tema es que en la app del reloj, me sale que estuve es puerto dos horas entre la noche, y no me acuerdo de haber estado despierto en la noche. Entonces me da curiosidad el porqué. Ya que para ser 2h de vigilia, mínimo me debería dar cuenta. Entonces puede que en ese tiempo, la calidad de mi sueño fue muy deficiente. (Comprobar)",
+    "reloj": "Huawei Health: dormido 00:05 → despierto 06:45 · 4 h 01 min de sueño (profundo 68, ligero 123, REM 50 min) · 4 despertares · ~159 min despierto en la noche · puntaje 68."
+   },
+   "ts": 1792432800054
+  },
+  "2026-10-06": {
+   "picor": 3,
+   "piel": 8,
+   "sueno": 8,
+   "pantalla": "",
+   "acostado": "23:40",
+   "levantado": "06:55",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": [
+     "N"
+    ]
+   },
+   "nota": "Leí y me dormí al tiro (23:53, reloj); desarmé poco la cama. La piel cicatriza como si usara corticoide. Fotos con luz baja, media hora después del hipoclorito.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve, e hipoclorito",
+    "hipoclorito": "Si",
+    "metodo_hipoclorito": "El mismo de siempre",
+    "sueno_texto": "Dormi súper bien. Me puse a leer y apenas termine de leer me quedé dormido duna, nada de vigilia. El reloj marca vigilia en medio de la noche probablemente por rascarme. Pero dormi súper bien, de hecho desarme poco la cama así que no me moví tanto. Nivel: 7.5/10",
+    "piel_texto": "La piel la veo muy pero muy bien. Las heridas des cicatrizaron muchisimo, y pareciera que estoy usando corticoide de lo rápido que se me recuperó la piel últimamente. Las heridas están súper cicatrizadas y con muy poca inflamación desde ayer y hoy día hay menos, y gracias al hipoclorito hoy día mucho menos. Nivel: 8/10",
+    "adicional": "Posdata, las fotos de la alergia las saque con luz baja y media hora después del hipoclorito así que eso igual influye en que se vea un poco mejor de lo que verdaderamente está, pero igualmente, la piel se ve muy bien.",
+    "reloj": "Huawei Health: dormido 23:53 → despierto 06:53 · 6 h 24 min de sueño (profundo 130, ligero 190, REM 64 min) · 3 despertares · ~36 min despierto en la noche · puntaje 85."
+   },
+   "ts": 1792432800055
+  },
+  "2026-10-07": {
+   "picor": 6,
+   "piel": 7,
+   "sueno": 6,
+   "pantalla": "",
+   "acostado": "22:40",
+   "levantado": "06:10",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [
+     "M"
+    ],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Leí y estuve ~20 min tratando de dormir (dormido 23:01, reloj); me moví y me rasqué harto. Cuello mucho mejor; el brazo derecho con harta alergia.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Tacrolimus (en la mañana) cera ve",
+    "hipoclorito": "no",
+    "sueno_texto": "Dormi bastante bien, pero me moví harto y me rasque harto. Pese a que me quede leyendo antes de dormir, me empezó a picar igual un poco, y de ahí ya me rasque un rato, luego me dormi (terminando de leer estuve como 20 minutos intentando dormir) pero en la noche igual sentí que me rasque. No tanto pero me rasque. Nivel: 6/10",
+    "piel_texto": "La piel la veo un poco peor que ayer. Se nota que me rasque en la noche. Aunque el cuello lo veo mucho mejor, el brazo derecho tiene harta alergia. Nivel: 6.5/10",
+    "adicional": "Todo explicado",
+    "reloj": "Huawei Health: dormido 23:01 → despierto 06:06 · 6 h 34 min de sueño (profundo 127, ligero 158, REM 109 min) · 4 despertares · ~31 min despierto en la noche · puntaje 79."
+   },
+   "ts": 1792432800056
+  },
+  "2026-10-08": {
+   "picor": 6,
+   "piel": 6,
+   "sueno": 7,
+   "pantalla": "",
+   "acostado": "00:30",
+   "levantado": "06:55",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": [
+     "N"
+    ]
+   },
+   "nota": "Estudié filosofía con el compu hasta tarde, estresado; me acosté 00:30 y caí al tiro (00:43, reloj). Me rasqué bastante. Puntajes de sueño y piel estimados. Fotos tras el hipoclorito.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve hipoclorito",
+    "hipoclorito": "Si",
+    "metodo_hipoclorito": "El mismo de siempre",
+    "sueno_texto": "Esta noche no me acuerdo de nada, es decir que me fui a dormir y estuve unos minutos intentando dormir, pero estaba muy cansado y me dormi altiro y profundo. El tema es que igual me rasque bastante. De hecho mientras estudiaba igual me rasque y cuando me fui a dormir también, pero no tanto. Despues que me quede dormido no me acuerdo de nada hasta que me desperté para ir al colegio.",
+    "piel_texto": "La alergia en parte se me mejoró un poco ya que igual cicatrizo (el brazo derecho sobre todo cicatrizó en las heridas más antiguas) pero a la vez me rasque mucho en todo el cuerpo, entonces como que a pesar de cicatrizar, en todo el cuerpo en general me rasque harto, por lo que se puso mas rojo y con un poquito de inflamación.",
+    "adicional": "Anoche antes dormir, estuve estudiando medio tarde para una prueba de filosofía porque llegué tarde a mi casa. Use el compu medio tarde, y me estrese un poco. (Aunque la materia la manejo súper bien, pero me estrese porque igual puede que el profe se ponga exótico y haga preguntas difíciles. Y como tampoco me quiería acostar tarde, me estrese e igualmente me acosté tarde) me termine acostando como a las 12:30. \n Otra cosa que agregar: las fotos que me saque hoy fueron despues del hipoclorito",
+    "reloj": "Huawei Health: dormido 00:43 → despierto 06:51 · 5 h 23 min de sueño (profundo 61, ligero 208, REM 54 min) · 3 despertares · ~45 min despierto en la noche · puntaje 69."
+   },
+   "ts": 1792432800057
+  },
+  "2026-10-09": {
+   "picor": 5,
+   "piel": 6,
+   "sueno": 7,
+   "pantalla": "",
+   "acostado": "23:05",
+   "levantado": "06:35",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Me acosté 23:05 y me dormí 23:16 (reloj): 7 h 06, un poco más que otros días. Me rasqué igual en la noche. La espalda está seca: la crema me ardió.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve",
+    "hipoclorito": "No",
+    "sueno_texto": "Hoy dormi súper bien la verdad, dormi un poco mas que los otros días. Cuando me fui a dormir me quede dormido súper rápido. Aunque la verdad igual me rasque en la noche. Nivel: 7/10",
+    "piel_texto": "La piel la veo un poco peor, pero a la vez más cicatrizada. Como que me estuvieras rascando superficialmente. Pero la espalda la siento bastante seca, ya que en la noche al echarme crema ardió bastante. Nivel: 6/10",
+    "adicional": "Todo explicado.",
+    "reloj": "Huawei Health: dormido 23:16 → despierto 06:30 · 7 h 06 min de sueño (profundo 106, ligero 205, REM 115 min) · 2 despertares · ~8 min despierto en la noche · puntaje 82."
+   },
+   "ts": 1792432800058
+  },
+  "2026-10-10": {
+   "picor": 5,
+   "piel": 6,
+   "sueno": 8,
+   "pantalla": "",
+   "acostado": "02:10",
+   "levantado": "11:00",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Cumpleaños: me acosté 02:10 y me dormí 03:46 (reloj). Me rasqué al principio nomás y desarmé poco la cama. Cansado por falta de horas. Espalda irritada: la crema me ardió.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve",
+    "hipoclorito": "No",
+    "sueno_texto": "Dormi bien me rasque, pero fue al principio nomas, porque no desarme mucho la cama, así que puedo asumir que en la noche no me rasque tanto. Pero verdad estoy bastante casado por falta de horas de sueño. \n Nivel: 7,5/10",
+    "piel_texto": "La piel la veo cicatrizando más, y sin tanta inflamación, lo que es muy bueno. Pero la espalda la siento media irritada, de hecho hoy en la noche cuando me eche crema me ardió caleta. Nivel: 6/10",
+    "adicional": "hoy me fui a dormir cerca de las 2:10 de la noche, ya que tuvimos un cumpleaños y nos acostamos tarde.",
+    "reloj": "Huawei Health: dormido 03:46 → despierto 10:53 · 6 h 35 min de sueño (profundo 97, ligero 189, REM 109 min) · 3 despertares · ~32 min despierto en la noche · puntaje 78."
+   },
+   "ts": 1792432800059
+  },
+  "2026-10-11": {
+   "picor": 2,
+   "piel": 7,
+   "sueno": 6,
+   "pantalla": "",
+   "acostado": "02:20",
+   "levantado": "07:30",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Me acosté 02:20 tras jugar play con mis primos y me levanté 07:30; me dormí en ~30 min y me rasqué súper poco. El reloj lo tomó como siesta y marca despertar 05:50 (raro).",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve",
+    "hipoclorito": "No",
+    "sueno_texto": "Me fui a acostar a las 2:20 am. Me quede con unos primos que fueron al cumpleaños jugando play y me tuve que levantar temprano… me levante a las 7:30\n me costó levantarme igual, porque no dormi mucho, pero no me rasque tanto, de hecho me rasque súper poco. Nivel: 6/10",
+    "piel_texto": "La piel la veo mejor, no veo que halla salido alergia nueva y se está cicatrizando en cuanto a las heridas más profundas, pero sigue harta parte del cuerpo bien rojas. Nivel: 6.5/10",
+    "adicional": "El reloj me marca que dormi siesta de 2 horas y tanto, esta súper mal, porque me acosté a las 2:20 y Verdad igual me dormi harto en dormir pero estimo que Máximo 30 minutos. Y me levante a las 7:30 y me dice que me desperté a las 5:50 así que está medio raro eso. No se me cayo el reloj ni nada por el estilo, entonces o se bugeo, o realmente dormi muy mal (pero no amanecí tan molido como para haber dormido 2h)",
+    "reloj": "Huawei Health: sin noche completa (el reloj lo registró como siestas 02:52–03:34 + 03:55–05:50, 2 h 37 min en total)."
+   },
+   "ts": 1792432800060
+  },
+  "2026-10-12": {
+   "picor": 4,
+   "piel": 7,
+   "sueno": 7,
+   "pantalla": "",
+   "acostado": "00:50",
+   "levantado": "09:50",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Me acosté 00:50 y me dormí 01:05 (reloj); dormí un poco más (7 h 42), aunque desperté muy cansado. Me rasqué el cuello en la noche. La espalda cicatrizó más.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve",
+    "hipoclorito": "No",
+    "sueno_texto": "Hoy dormí bastante bien, aunque me rasque helado cuello en la noche, pero dormi súper bien, pude dormir un poco más, aunque me desperté muy cansado. Nivel: 7/10",
+    "piel_texto": "La piel la veo igual que siempre, pero al espalda la veo mas cicatrizada. Nivel: 7/10",
+    "adicional": "Todo explicado.",
+    "reloj": "Huawei Health: dormido 01:05 → despierto 09:46 · 7 h 42 min de sueño (profundo 139, ligero 247, REM 76 min) · 4 despertares · ~59 min despierto en la noche · puntaje 87."
+   },
+   "ts": 1792432800061
+  },
+  "2026-10-13": {
+   "picor": 4,
+   "piel": 7,
+   "sueno": 6,
+   "pantalla": "23:30",
+   "acostado": "00:00",
+   "levantado": "07:10",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [
+     "N"
+    ],
+    "hipoclorito": []
+   },
+   "nota": "Dejé el compu 23:30, me acosté 00:00 (dormido 00:31, reloj). Desperté molido; solo me rasqué el cuello. Piel más seca y agrietada. Día 1 fase 1: clobetasol en zonas con alergia (no en la cara).",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve y empece la primera fase corticoide (clobetasol en áreas con alergia menos en la cara)\n (En la cara no tengo mucha alergia, por eso no me echo hidrocortisona ahí)",
+    "hipoclorito": "No",
+    "sueno_texto": "me fui a acostar a las 12, y dejé el compu a las 11:30. Dormi bien dentro de todo, pero me desperté demasiado cansado y molido (probablemente porque me desperté en la etapa rem) me rasque solo el cuello en la noche. Nivel: 6/10",
+    "piel_texto": "La piel la veo un poco peor, mas seca y agrietada aunque no hay muchas heridas nuevas a parte del cuello. Nivel: 6.5/10",
+    "adicional": "Día 1 de la primera fase de corticoide (frenar el brote)",
+    "reloj": "Huawei Health: dormido 00:31 → despierto 07:07 · 5 h 51 min de sueño (profundo 144, ligero 133, REM 74 min) · 4 despertares · ~45 min despierto en la noche · puntaje 86."
+   },
+   "ts": 1792432800062
+  },
+  "2026-10-14": {
+   "picor": 1,
+   "piel": 8,
+   "sueno": 8,
+   "pantalla": "22:00",
+   "acostado": "22:30",
+   "levantado": "06:50",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [
+     "N"
+    ],
+    "hipoclorito": []
+   },
+   "nota": "Dejé el compu 22:00 y me acosté 22:30 (dormido 22:56, reloj). Dormí súper bien y casi sin rascarme. Piel desinflamada y casi sin picazón. Día 2 fase 1.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve y corticoide en la noche. (Clobetasol)",
+    "hipoclorito": "No",
+    "sueno_texto": "Me fui a acostar a las 10:30 y el compu lo dejé a las 10. Dormi súper súper bien y me rasque súper poco o casi nada. Nivel: 8/10",
+    "piel_texto": "La piel la veo mejor, se nota desinflamada y no me pica nada o casi nada el cuerpo. Nivel: 7.5/10",
+    "adicional": "Día 2 de la primera fase de corticoide",
+    "reloj": "Huawei Health: dormido 22:56 → despierto 06:46 · 7 h 19 min de sueño (profundo 93, ligero 245, REM 101 min) · 2 despertares · ~31 min despierto en la noche · puntaje 83."
+   },
+   "ts": 1792432800063
+  },
+  "2026-10-15": {
+   "picor": 1,
+   "piel": 9,
+   "sueno": 9,
+   "pantalla": "21:00",
+   "acostado": "00:20",
+   "levantado": "06:05",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [
+     "N"
+    ],
+    "hipoclorito": []
+   },
+   "nota": "Dejé el compu 21:00 y me acosté 00:20 (dormido 00:36, reloj). Dormí súper bien, sin rascarme. Se fue mucha alergia: piel desinflamada gracias al corticoide. Día 3 fase 1.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve y corticoide en la noche (clobetasol)",
+    "hipoclorito": "No",
+    "sueno_texto": "Deje el compu como a las 9 de la noche, y me fui a acostar como a las 12:20. Dormi súper bien, no me rasque nada o casi nada. Nivel: 8.5/10",
+    "piel_texto": "La piel está muy bien, se fue mucha parte de la alergia y ahora se ve más sano, es decir piel desinflamada gracuas al corticoide. Nivel: 8.5/10",
+    "adicional": "Día 3 de la primera fase.",
+    "reloj": "Huawei Health: dormido 00:36 → despierto 06:00 · 5 h 11 min de sueño (profundo 125, ligero 148, REM 38 min) · 2 despertares · ~13 min despierto en la noche · puntaje 75."
+   },
+   "ts": 1792432800064
+  },
+  "2026-10-16": {
+   "picor": 0,
+   "piel": 9,
+   "sueno": 9,
+   "pantalla": "21:00",
+   "acostado": "00:50",
+   "levantado": "10:30",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [
+     "N"
+    ],
+    "hipoclorito": []
+   },
+   "nota": "Dejé el compu 21:00, me acosté 00:50 (dormido 01:11). Sin rascarme, pero poco REM y profundo. Fase 2 día 1: hidrocortisona en el cuello, clobetasol en el resto. Olvidé el tacrolimus.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve, clobetasol e hidrocortisona. (Sé me olvidó el tacrolimus)",
+    "hipoclorito": "No",
+    "sueno_texto": "Deje el compu como a las 9 de la noche y me fui a acostar como a las 12:50. Dormi súper bien y no me rasque nada. El tema es que tuve poco sueño rem y poco sueño profundo y la verdad no tengo idea porque. Nivel: 9/10",
+    "piel_texto": "La piel está con casi 0 inflamación. Así que eso ha estado súper súper. Nivel: 9/10",
+    "adicional": "Día 1 de la segunda fase. Pero se me olvidó aplicar el tacrolimus. Algo extra que decir: decidí para la etapa 2 no usar clobetasol en el cuello, sino hidrocortisona en el cuello, ya que está desinflamado y el clobetasol es muy fuerte. Ahora estoy aplicando el clobaresol en las demas donas, es decir brazos, espalda, torso, pecho y manos.",
+    "reloj": "Huawei Health: dormido 01:11 → despierto 10:25 · 9 h 14 min de sueño (profundo 61, ligero 446, REM 47 min) · puntaje 67."
+   },
+   "ts": 1792432800065
+  },
+  "2026-10-17": {
+   "picor": 1,
+   "piel": 8,
+   "sueno": 9,
+   "pantalla": "23:00",
+   "acostado": "01:00",
+   "levantado": "10:00",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [
+     "T"
+    ],
+    "corticoide": [
+     "N"
+    ],
+    "hipoclorito": []
+   },
+   "nota": "Dejé el compu 23:00, me acosté 01:00 (dormido 01:48). Casi sin rascarme; faltaron horas. ~40 min despierto que no recuerdo. Heridas en el antebrazo por la correa metálica del reloj.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve, Tacrolimus en la tarde, y corticoide en la noche (betametasona e hidrocortisona)",
+    "hipoclorito": "No",
+    "sueno_texto": "Deje el compu como a las 11 y me fui a acostar a las 1am. Dormi súper bien, no me rasque casi nada, me faltaron un par de horas de sueño nomas. nivel: 8.5/10",
+    "piel_texto": "La piel está súper bien en general, aunque el antebrazo tiene un poquito más de alergia (ademas tiene heridas como si me hubiera rascado con la correa del reloj de metal) pero fuera de eso esta súper bien. Nivel: 8/10",
+    "adicional": "Día 2 de la segunda etapa. Me aparece vigilia de 40 minutos y no me levante ni me acuerdo de haber despertado en la noche. Y se me hace raro porque estoy con corticoide, y no debería haber estado tan inquieto en la noche.",
+    "reloj": "Huawei Health: dormido 01:48 → despierto 09:54 · 7 h 25 min de sueño (profundo 71, ligero 247, REM 127 min) · 2 despertares · ~41 min despierto en la noche · puntaje 78."
+   },
+   "ts": 1792432800066
+  },
+  "2026-10-18": {
+   "picor": 0,
+   "piel": 9,
+   "sueno": 9,
+   "pantalla": "02:00",
+   "acostado": "02:08",
+   "levantado": "10:30",
+   "trat": {
+    "emoliente": [
+     "?"
+    ],
+    "tacrolimus": [],
+    "corticoide": [
+     "?"
+    ],
+    "hipoclorito": []
+   },
+   "nota": "Dejé el compu 02:00 y me acosté 02:08 (dormido 02:25). Súper bien, sin rascarme. Casi sin alergia, pero quedaron manchas en espalda, manos, pecho y brazos. Estimé los puntajes. Sin tacrolimus.",
+   "fotos": true,
+   "legacy": {
+    "tratamiento": "Cera ve, y corticoide. (Se Me olvido usar tacrolimus en la mañana)",
+    "hipoclorito": "no",
+    "sueno_texto": "Deje El compu a las 2 am y me acoste a las 2:08 am. Dormidita super super bien, no me rasque nada y dormi super bien",
+    "piel_texto": "La piel está super bien ya casi no hay alergia. Lo único que me preocupa, es que en donde se fue la alergia, me quedaron manchas en la piel en la espalda, manos y un poco en el pecho y brazos.\n Pero en cuanto a la piel, esta super bien y con casi nada de picazón.",
+    "adicional": "Dia 3 de la segunda etapa. Todo explicado",
+    "reloj": "Huawei Health: dormido 02:25 → despierto 10:27 · 8 h 01 min de sueño (profundo 42, ligero 307, REM 132 min) · ~1 min despierto en la noche · puntaje 71."
+   },
+   "ts": 1792432800067
+  },
+  "2026-10-19": {
+   "picor": null,
+   "piel": null,
+   "sueno": null,
+   "pantalla": "",
+   "acostado": "",
+   "levantado": "09:20",
+   "trat": {
+    "emoliente": [],
+    "tacrolimus": [],
+    "corticoide": [],
+    "hipoclorito": []
+   },
+   "nota": "Solo datos del reloj: dormido 00:44 → despierto 09:19 (8 h 10 de sueño, puntaje 90). Falta tu check-in de hoy (picor, piel y sueño).",
+   "fotos": false,
+   "legacy": {
+    "reloj": "Huawei Health: dormido 00:44 → despierto 09:19 · 8 h 10 min de sueño (profundo 127, ligero 250, REM 113 min) · 5 despertares · ~25 min despierto en la noche · puntaje 90."
+   },
+   "ts": 1792432800068
+  }
+ }
+}
