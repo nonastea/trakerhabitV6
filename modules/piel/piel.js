@@ -222,7 +222,7 @@ function render(el) {
 
     <div class="m-card">
       <label class="m-field"><span class="m-label">NOTA</span>
-        <textarea class="m-input piel-nota" rows="2" maxlength="200" data-nota placeholder="Algo que notaste (máx. 200 caracteres)">${esc(r.nota)}</textarea></label>
+        <textarea class="m-input piel-nota" rows="3" data-nota placeholder="Algo que notaste">${esc(r.nota)}</textarea></label>
       <div class="m-row piel-fotos">
         <button type="button" class="m-chip${r.fotos ? ' on' : ''}" data-fotos aria-pressed="${!!r.fotos}">${r.fotos ? '✓ ' : ''}Fotos hechas</button>
         <a class="m-btn small" href="shortcuts://run-shortcut?name=Foto%20piel">ABRIR ATAJO FOTO PIEL</a>
@@ -339,7 +339,7 @@ function wire(el) {
       const r = ensure(sel); r[t.dataset.time] = t.value || '';
       App.save('piel', { noRender: true }); paintLive();
     } else if (t.hasAttribute('data-nota')) {
-      const r = ensure(sel); r.nota = t.value.slice(0, 200);
+      const r = ensure(sel); r.nota = t.value;
       App.save('piel', { noRender: true });
     }
   };
