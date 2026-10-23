@@ -152,7 +152,9 @@ function loadState() {
       state.game          = d.game          || {};
     } else {
       seedDefaults();
-      saveState();
+      // 22-oct: un equipo recién instalado NO marca sus datos de ejemplo como "nuevos";
+      // si lo hiciera, ganaría contra la nube y pisaría los hábitos reales.
+      saveState(false);
     }
   } catch (e) {
     console.error('Error al cargar:', e);
