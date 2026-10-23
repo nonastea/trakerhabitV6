@@ -26,6 +26,22 @@ let dirty = new Set();
 try { JSON.parse(localStorage.getItem(DIRTY_KEY) || '[]').forEach(x => dirty.add(x)); } catch (e) {}
 let busy = false, pushTimer = null, lastPull = 0, started = false;
 
+const BACKUP_KEY = 'habitos-v7:respaldos-sync';
+// ¿Lo que viene de la nube parece un equipo vacío o recién instalado?
+function looksLikeDataLoss(c) {
+  const loc = (state.habits || []).length + (state.tasks || []).length;
+  const rem = (c.habits || []).length + (c.tasks || []).length;
+  return loc >= 6 && rem < loc * 0.6;
+}
+// Antes de reemplazar con la nube, guarda una copia local (las 3 últimas).
+// Recuperar desde la consola: JSON.parse(localStorage['habitos-v7:respaldos-sync'])
+function backupBeforeOverwrite() {
+  try {
+    const list = JSON.parse(localStorage.getItem(BACKUP_KEY) || '[]');
+    list.unshift({ at: new Date().toISOString(), data: corePayload() });
+    localStorage.setItem(BACKUP_KEY, JSON.stringify(list.slice(0, 3)));
+  } catch (e) { console.error('No se pudo respaldar antes de sincronizar', e); }
+}
 function persistDirty() { try { localStorage.setItem(DIRTY_KEY, JSON.stringify([...dirty])); } catch (e) {} }
 
 /* ---------- configuración ---------- */
@@ -140,7 +156,17 @@ async function pull() {
       const merged = mergeCompletions(state.completions, c.completions);
       const changedMarks = JSON.stringify(merged) !== JSON.stringify(state.completions || {});
       const remoteMod = (c._syncMeta && c._syncMeta.modifiedAt) || 0;
-      if (remoteMod > (state.dataModifiedAt || 0)) {
+      // Un equipo recién instalado queda con fecha 0 (ver loadState), así que siempre adopta la nube.
+      let remoteWins = remoteMod > (state.dataModifiedAt || 0);
+      if (remoteWins && (state.dataModifiedAt || 0) > 0 && looksLikeDataLoss(c)) {
+        remoteWins = confirm('La nube trae MUCHOS menos hábitos/tareas que este equipo (' +
+          ((c.habits||[]).length) + ' hábitos y ' + ((c.tasks||[]).length) + ' tareas, contra ' +
+          state.habits.length + ' y ' + state.tasks.length + ' aquí).\n\n' +
+          'ACEPTAR = usar lo de la nube · CANCELAR = conservar lo de este equipo y subirlo');
+        if (!remoteWins) { state.dataModifiedAt = Date.now(); dirty.add('core'); }
+      }
+      if (remoteWins) {
+        backupBeforeOverwrite();
         applyCore(c);
         if (typeof migrateTasksV3 === 'function') migrateTasksV3();
         state.completions = merged; state.dataModifiedAt = remoteMod; applied = true;
@@ -205,6 +231,22 @@ window.cloudTestAndSave = async function () {
   state.settings.cloudApiKey = token;
   try {
     if (!gistId) {
+      // Antes de crear uno nuevo, busca si ya existe el Gist de la app (creado desde otro dispositivo).
+      // Si cada equipo crea el suyo, cada uno sincroniza contra una nube distinta y nunca se ven.
+      try {
+        const lr = await fetch(API + '?per_page=100', { headers: headers(), cache: 'no-store' });
+        if (lr.ok) {
+          const mine = (await lr.json()).filter(x => /^Trackeador de hábitos/.test(x.description || ''))
+            .sort((a, b) => String(b.updated_at).localeCompare(String(a.updated_at)));
+          if (mine.length) gistId = mine[0].id;
+        }
+      } catch (e) { /* si falla la búsqueda, se crea uno nuevo */ }
+    }
+    if (gistId) {
+      state.settings.cloudBinId = gistId;
+      document.getElementById('setCloudBin').value = gistId;
+      await getGist();          // prueba de lectura
+    } else {
       const files = { 'core.json': { content: fileFor('core') } };
       moduleIds().forEach(id => { files[id + '.json'] = { content: fileFor(id) }; });
       const r = await fetch(API, { method: 'POST', headers: headers(),
@@ -214,14 +256,11 @@ window.cloudTestAndSave = async function () {
       document.getElementById('setCloudBin').value = gistId;
       state.settings.cloudBinId = gistId;
       dirty.clear(); persistDirty();
-    } else {
-      state.settings.cloudBinId = gistId;
-      await getGist();          // prueba de lectura
     }
     state.settings.cloudAutoSync = true;
     const cAuto = document.getElementById('setCloudAuto'); if (cAuto) cAuto.checked = true;
     saveState(false);
-    renderCloudStatus('CONEXIÓN OK · GIST ' + gistId.slice(0, 8) + '… · copia este ID al otro dispositivo');
+    renderCloudStatus('CONEXIÓN OK · GIST ' + gistId + ' · debe ser el MISMO en todos tus dispositivos');
     showToast('NUBE CONECTADA');
     pull();
   } catch (e) {
@@ -254,7 +293,7 @@ window.renderCloudStatus = function (msg) {
   if (!stEl) return;
   if (msg) stEl.textContent = msg;
   else if (!cloudConfigured()) stEl.textContent = 'SIN CONFIGURAR — pega tu token de GitHub';
-  else stEl.textContent = `CONECTADO · ${state.settings.cloudAutoSync ? 'AUTO ON' : 'AUTO OFF'} · ÚLTIMA SYNC: ${fmtSyncTime(state.settings.lastSyncAt)}${dirty.size ? ' · ' + dirty.size + ' PENDIENTE(S)' : ''}`;
+  else stEl.textContent = `CONECTADO · GIST ${String(state.settings.cloudBinId).slice(0, 6)} · ${state.settings.cloudAutoSync ? 'AUTO ON' : 'AUTO OFF'} · ÚLTIMA SYNC: ${fmtSyncTime(state.settings.lastSyncAt)}${dirty.size ? ' · ' + dirty.size + ' PENDIENTE(S)' : ''}`;
   if (dotEl) dotEl.style.background = cloudConfigured() ? 'var(--success)' : 'var(--text-fade)';
 };
 
