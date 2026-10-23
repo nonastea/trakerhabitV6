@@ -8,7 +8,7 @@
    - Nunca cachea la nube (GitHub/Gist, JSONBin), el dólar ni el clima
    ============================================================ */
 
-const CACHE_VERSION = 'habitos-v8-4';
+const CACHE_VERSION = 'habitos-v8-5';
 const SHELL_CACHE = `${CACHE_VERSION}-shell`;
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 
